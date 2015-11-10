@@ -9,28 +9,35 @@ of reasons to edit this stylesheet. If you want to
 though, go for it.
 
 ******************************************************************/
+body{
+  font-size: 1.75em;
+}
+h3 {
+    margin: 0em;
+}
+div#container {
+    margin-top: 0em;
+}
+.entry-content td, .article-footer td {
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.entry-content, .article-footer {
+    padding: 0em 1.5em .5em 0em;
+}
 
   * {
     background: transparent !important;
     color: black !important;
     text-shadow: none !important;
+    border: 0px !important;
     filter:none !important;
     -ms-filter: none !important;
   }
 
   a, a:visited {
-    color: #444 !important;
-    text-decoration: underline;
 
-    // show links on printed pages
-    &:after {
-      content: " (" attr(href) ")";
-    }
-
-    // show title too
-    abbr[title]:after {
-      content: " (" attr(title) ")";
-    }
   }
 
   .ir a:after,
@@ -69,7 +76,12 @@ though, go for it.
     h3 {
       page-break-after: avoid;
     }
-
+.noprint, header, footer{
+  display: none;
+}
+.resume table{
+  font-size: 50%;
+}
     // hide content people who print don't need to see
     .sidebar,
     .page-navigation,

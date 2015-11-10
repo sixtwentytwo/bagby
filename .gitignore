@@ -56,3 +56,6 @@ temp/
 
 *.codekit
 *.scssc
+password.txt
+*.sublime*
+sftp*

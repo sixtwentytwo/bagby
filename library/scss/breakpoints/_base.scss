@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
+	background-color: $white;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 }
@@ -153,14 +153,13 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $black;
+	background-color: transparent;
 }
 
 	#logo {
-		margin: 0.75em 0;
+		margin: 0em 0;
 
 		a {
-			color: $white;
 		}
 	}
 
@@ -184,7 +183,6 @@ and more scalable.
 
 		a {
 			display: block;
-			color: $white;
 			text-decoration: none;
 			padding: 0.75em;
 
@@ -214,7 +212,7 @@ and more scalable.
 		ul.children {
 
 			li {
-
+				float: none;
 				a {
 					padding-left: 30px;
 
@@ -252,11 +250,11 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin-top: 1.5em;
+	margin-top: 0em;
 }
 
 		.hentry {
-			background-color: $white;
+			background-color: transparent;
 			border-radius: 3px;
 			margin-bottom: 1.5em;
 			border: 1px solid $border-color;
@@ -437,7 +435,6 @@ POSTS & CONTENT STYLES
 			}
 
 		} /* end .entry-content */
-
 		.wp-caption {
 			max-width: 100%;
 			background: #eee;
@@ -457,36 +454,186 @@ POSTS & CONTENT STYLES
 			}
 
 		} /* end .wp-caption */
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
 
-		/* image gallery styles */
-		.gallery {
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+		
+/* image gallery styles */
+.jp-carousel-info {
+display: none;
+}
 
-			dl {
+.gallery-columns-3 dl.gallery-item{
+width: 33.3333%;
 
-				a {}
+}
 
-				img {}
+dl.gallery-item {
+float: left;
+padding: 0em;
+}
 
-			}
+.gallery *{
+	line-height: 0em;
+}
 
-			dt {}
 
-			dd {}
+.gallery {
+	line-height: 0em;
+	margin: 0;
 
-		} /* end .gallery */
 
-		/* gallery caption styles */
-		.gallery-caption {}
+dl {margin: 0;
 
-		.size-full {}
-		.size-large {}
-		.size-medium {}
-		.size-thumbnail {}
 
-	// the tag output
-	.tags {
-		margin: 0;
-	}
+a {}
+
+img {
+width: 100%;
+height: auto;
+margin: 0;
+
+
+
+}
+
+
+}
+
+dt {margin: 0;
+}
+
+dd {margin: 0;
+}
+
+} /* end .gallery */
+
+/* gallery caption styles */
+.gallery-caption {}
+
+.size-full {}
+.size-large {}
+.size-medium {}
+.size-thumbnail {}
+
+// the tag output
+.tags {
+margin: 0;
+}
+/*********************
+RESUME
+*********************/
+.resume dd {
+    display: none;
+}
+.printresume {
+background-color: white;
+}
+
+.resume {
+p{
+margin: 0 !important;
+}
+img{
+margin-bottom:0 !important; 
+}
+thead{
+display: none;
+}
+td{    vertical-align: top;
+}
+}
+.resume table {
+background-color: white;
+color: black;
+margin: 0 !important;
+
+}
+.resume{ 
+table, td, tr {
+border:0 !important;
+}
+}
+.resume table tr td:first-child{
+padding-left: 1em;
+}
+tr td:last-child {
+/* styles */
+}
+
+.resume table h1, .resume table h2,.resume table h3 {
+}
+
+.resume td a{
+color: black;
+}
+
+@media
+only screen and (max-width: 767px){
+/* Force table to not be like tables anymore */
+.resume{
+table, thead, tbody, th, td, tr {
+display: block;
+text-align: left !important;
+margin: 0 !important;
+border-width: 0;		
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+thead tr {
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+.credits tr:nth-of-type(even) {
+background: $light-gray;
+}
+
+td {
+/* Behave  like a "row" */
+border: none;
+position: relative;
+padding: 0 1em 0 1em !important;
+width: 100% !important;
+}
+td *{
+text-align: left !important;
+}
+
+td:before {
+/* Now like a table header */
+position: absolute;
+/* Top/left values mimic padding */
+top: 6px;
+left: 6px;
+width: 100%;
+padding-right: 10px;
+white-space: nowrap;
+}
+}
+
+}
+
+
+
+
+/*********************
+END RESUME
+*********************/
+
+
 
 /******************************************************************
 PAGE NAVI STYLES
@@ -862,8 +1009,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $black;
-	color: $light-gray;
+	color: $black;
 }
 
 	/*
