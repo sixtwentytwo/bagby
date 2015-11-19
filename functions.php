@@ -319,4 +319,92 @@ function woocommerce_support()
 End Woo
 *****/
 
+/*
+*
+* Callback function to filter the MCE settings
+*/
+
+function my_mce_before_init_insert_formats( $init_array ) {  
+
+// Define the style_formats array
+
+$style_formats = array(  
+// Each array child is a format with it's own settings
+array(  
+'title' => '1/1',  
+'block' => 'div',  
+'classes' => 'm-all t-all d-all cf',
+'wrapper' => true,
+),
+array(  
+'title' => '1/2',  
+'block' => 'div',  
+'classes' => 'm-all t-1of2 d-1of2',
+'wrapper' => true,
+),
+array(  
+'title' => '1/3',  
+'block' => 'div',  
+'classes' => 'm-all t-1of3 d-1of3',
+'wrapper' => true,
+),
+array(  
+'title' => '1/4',  
+'block' => 'div',  
+'classes' => 'm-all t-1of4 d-1of4',
+'wrapper' => true,
+),
+array(  
+'title' => '1/5',  
+'block' => 'div',  
+'classes' => 'm-all t-1of5 d-1of5',
+'wrapper' => true,
+),
+array(  
+'title' => '1/6',  
+'block' => 'div',  
+'classes' => 'm-all t-1of6 d-1of6',
+'wrapper' => true,
+),
+array(  
+'title' => '1/6',  
+'block' => 'div',  
+'classes' => 'm-all t-1of7 d-1of7',
+'wrapper' => true,
+),
+array(  
+'title' => '1/9',  
+'block' => 'div',  
+'classes' => 'm-all t-1of8 d-1of8',
+'wrapper' => true,
+),
+array(  
+'title' => '1/10',  
+'block' => 'div',  
+'classes' => 'm-all t-1of9 d-1of9',
+'wrapper' => true,
+),
+array(  
+'title' => '1/11',  
+'block' => 'div',  
+'classes' => 'm-all t-1of10 d-1of10',
+'wrapper' => true,
+),
+array(  
+'title' => '1/12',  
+'block' => 'div',  
+'classes' => 'm-all t-1of12 d-1of12',
+'wrapper' => true,
+),
+
+);  
+// Insert the array, JSON ENCODED, into 'style_formats'
+$init_array['style_formats'] = json_encode( $style_formats );  
+
+return $init_array;  
+
+} 
+// Attach callback to 'tiny_mce_before_init' 
+add_filter( 'tiny_mce_before_init', 'my_mce_before_init_insert_formats' ); 
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>
