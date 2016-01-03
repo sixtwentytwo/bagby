@@ -1,0 +1,407 @@
+{
+  "id": "20567a79",
+  "cfgVersion": 1,
+  "name": "sixtwentytwo",
+  "files": {
+    "bc2b28db": {
+      "id": "bc2b28db",
+      "pid": "20567a79",
+      "name": "admin.scss",
+      "input": "library/scss/admin.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": true,
+        "unixNewlines": true,
+        "sourcemaps": true,
+        "debug": false,
+        "compass": true,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": true
+      }
+    },
+    "ce99e37f": {
+      "id": "ce99e37f",
+      "pid": "20567a79",
+      "name": "editor-style.scss",
+      "input": "library/scss/editor-style.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": true,
+        "unixNewlines": true,
+        "sourcemaps": true,
+        "debug": false,
+        "compass": true,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": true
+      }
+    },
+    "d14ca03a": {
+      "id": "d14ca03a",
+      "pid": "20567a79",
+      "name": "ie.scss",
+      "input": "library/scss/ie.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": true,
+        "unixNewlines": true,
+        "sourcemaps": true,
+        "debug": false,
+        "compass": true,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": true
+      }
+    },
+    "1d898aeb": {
+      "id": "1d898aeb",
+      "pid": "20567a79",
+      "name": "login.scss",
+      "input": "library/scss/login.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": true,
+        "unixNewlines": true,
+        "sourcemaps": true,
+        "debug": false,
+        "compass": true,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": true
+      }
+    },
+    "103bd689": {
+      "id": "103bd689",
+      "pid": "20567a79",
+      "name": "style.scss",
+      "input": "library/scss/style.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": true,
+        "unixNewlines": true,
+        "sourcemaps": true,
+        "debug": false,
+        "compass": true,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": true
+      }
+    },
+    "4f4fa8c6": {
+      "id": "4f4fa8c6",
+      "pid": "20567a79",
+      "name": "CHANGELOG.md",
+      "input": "CHANGELOG.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    },
+    "b595e4cc": {
+      "id": "b595e4cc",
+      "pid": "20567a79",
+      "name": "scripts.js",
+      "input": "library/js/scripts.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "2e8f9ea2": {
+      "id": "2e8f9ea2",
+      "pid": "20567a79",
+      "name": "readme.md",
+      "input": "readme.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": true,
+        "sanitize": false,
+        "gfm": true
+      }
+    }
+  },
+  "imports": {
+    "23606099": {
+      "id": "23606099",
+      "pid": "20567a79",
+      "path": "library/scss/modules/_forms.scss",
+      "parents": [
+        "103bd689"
+      ]
+    },
+    "71519650": {
+      "id": "71519650",
+      "pid": "20567a79",
+      "path": "library/scss/partials/_mixins.scss",
+      "parents": [
+        "ce99e37f",
+        "d14ca03a",
+        "103bd689"
+      ]
+    },
+    "cf8e1c2b": {
+      "id": "cf8e1c2b",
+      "pid": "20567a79",
+      "path": "library/scss/partials/_normalize.scss",
+      "parents": [
+        "ce99e37f",
+        "103bd689"
+      ]
+    },
+    "f6e3e702": {
+      "id": "f6e3e702",
+      "pid": "20567a79",
+      "path": "library/scss/partials/_variables.scss",
+      "parents": [
+        "ce99e37f",
+        "d14ca03a",
+        "103bd689"
+      ]
+    },
+    "09964e0b": {
+      "id": "09964e0b",
+      "pid": "20567a79",
+      "path": "library/scss/partials/_typography.scss",
+      "parents": [
+        "ce99e37f",
+        "d14ca03a",
+        "103bd689"
+      ]
+    },
+    "af98a76d": {
+      "id": "af98a76d",
+      "pid": "20567a79",
+      "path": "library/scss/partials/_functions.scss",
+      "parents": [
+        "ce99e37f",
+        "103bd689"
+      ]
+    },
+    "4a2358bf": {
+      "id": "4a2358bf",
+      "pid": "20567a79",
+      "path": "library/scss/partials/_ie_grid.scss",
+      "parents": [
+        "d14ca03a"
+      ]
+    },
+    "83ec1ed2": {
+      "id": "83ec1ed2",
+      "pid": "20567a79",
+      "path": "library/scss/breakpoints/_481up.scss",
+      "parents": [
+        "d14ca03a",
+        "103bd689"
+      ]
+    },
+    "47da205a": {
+      "id": "47da205a",
+      "pid": "20567a79",
+      "path": "library/scss/breakpoints/_768up.scss",
+      "parents": [
+        "d14ca03a",
+        "103bd689"
+      ]
+    },
+    "d89597b6": {
+      "id": "d89597b6",
+      "pid": "20567a79",
+      "path": "library/scss/breakpoints/_1030up.scss",
+      "parents": [
+        "d14ca03a",
+        "103bd689"
+      ]
+    },
+    "b3896154": {
+      "id": "b3896154",
+      "pid": "20567a79",
+      "path": "library/scss/partials/_grid.scss",
+      "parents": [
+        "103bd689"
+      ]
+    },
+    "10d6d649": {
+      "id": "10d6d649",
+      "pid": "20567a79",
+      "path": "library/scss/modules/_alerts.scss",
+      "parents": [
+        "103bd689"
+      ]
+    },
+    "6c14909c": {
+      "id": "6c14909c",
+      "pid": "20567a79",
+      "path": "library/scss/modules/_buttons.scss",
+      "parents": [
+        "103bd689"
+      ]
+    },
+    "aa6d3fdd": {
+      "id": "aa6d3fdd",
+      "pid": "20567a79",
+      "path": "library/scss/breakpoints/_base.scss",
+      "parents": [
+        "103bd689"
+      ]
+    },
+    "7deba755": {
+      "id": "7deba755",
+      "pid": "20567a79",
+      "path": "library/scss/breakpoints/_1240up.scss",
+      "parents": [
+        "103bd689"
+      ]
+    },
+    "9e74ea4f": {
+      "id": "9e74ea4f",
+      "pid": "20567a79",
+      "path": "library/scss/breakpoints/_2x.scss",
+      "parents": [
+        "103bd689"
+      ]
+    },
+    "1f302190": {
+      "id": "1f302190",
+      "pid": "20567a79",
+      "path": "library/scss/partials/_print.scss",
+      "parents": [
+        "103bd689"
+      ]
+    }
+  },
+  "images": {
+    "19430437": {
+      "id": "19430437",
+      "pid": "20567a79",
+      "path": "library/images/custom-post-icon.png",
+      "size": 462,
+      "name": "custom-post-icon.png",
+      "type": "Png",
+      "initialSize": 462,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7066d27b": {
+      "id": "7066d27b",
+      "pid": "20567a79",
+      "path": "library/images/apple-touch-icon.png",
+      "size": 8439,
+      "name": "apple-touch-icon.png",
+      "type": "Png",
+      "initialSize": 8439,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3c2b53cd": {
+      "id": "3c2b53cd",
+      "pid": "20567a79",
+      "path": "library/images/empty-cart.png",
+      "size": 24245,
+      "name": "empty-cart.png",
+      "type": "Png",
+      "initialSize": 24245,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c098fc4a": {
+      "id": "c098fc4a",
+      "pid": "20567a79",
+      "path": "library/images/empty.png",
+      "size": 23343,
+      "name": "empty.png",
+      "type": "Png",
+      "initialSize": 23343,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c58c294e": {
+      "id": "c58c294e",
+      "pid": "20567a79",
+      "path": "library/images/login-logo.png",
+      "size": 7019,
+      "name": "login-logo.png",
+      "type": "Png",
+      "initialSize": 7019,
+      "status": "NOT_OPTIMIZED"
+    },
+    "41ba52c1": {
+      "id": "41ba52c1",
+      "pid": "20567a79",
+      "path": "library/images/resume-icon.png",
+      "size": 21389,
+      "name": "resume-icon.png",
+      "type": "Png",
+      "initialSize": 21389,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0f279dab": {
+      "id": "0f279dab",
+      "pid": "20567a79",
+      "path": "library/images/win8-tile-icon.png",
+      "size": 8048,
+      "name": "win8-tile-icon.png",
+      "type": "Png",
+      "initialSize": 8048,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bc77a80d": {
+      "id": "bc77a80d",
+      "pid": "20567a79",
+      "path": "screenshot.png",
+      "size": 450767,
+      "name": "screenshot.png",
+      "type": "Png",
+      "initialSize": 450767,
+      "status": "NOT_OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": false,
+    "liveRefresh": true,
+    "liveRefreshDelay": "0",
+    "filterPatterns": "",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpSecure": false,
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}
