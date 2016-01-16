@@ -159,6 +159,11 @@ background-color: transparent;
 #logo {
 margin: 0em 0;
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 a {
 }
 }
@@ -485,10 +490,42 @@ height: 100%;
 display: none;
 }
 
+
+.gallery-columns-2 dl.gallery-item {
+    max-width: 50%;
+}
 .gallery-columns-3 dl.gallery-item{
 width: 33.3333%;
 
 }
+.gallery-columns-4 dl.gallery-item {
+    max-width: 25%;
+}
+.gallery-columns-5 dl.gallery-item {
+    max-width: 20%;
+}
+.gallery-columns-6 dl.gallery-item {
+    max-width: 16.6666667%;
+}
+.gallery-columns-7 dl.gallery-item {
+    max-width: 14.2857143%;
+}
+.gallery-columns-8 dl.gallery-item {
+    max-width: 12.5%;
+}
+.gallery-columns-9 dl.gallery-item {
+    max-width: 11.1111111%;
+}
+.gallery-columns-10 dl.gallery-item {
+    max-width: 10%;
+}
+.gallery-columns-11 dl.gallery-item {
+    max-width: 9.09090909091%;
+}
+.gallery-columns-12 dl.gallery-item {
+    max-width: 8.33333333333%;
+}
+
 
 dl.gallery-item {
 float: left;
