@@ -522,27 +522,33 @@ array(
 'wrapper' => true,
 ),
 array(  
-'title' => '1/6',  
+'title' => '1/7',  
 'block' => 'div',  
 'classes' => 'm-all t-1of7 d-1of7',
 'wrapper' => true,
 ),
 array(  
-'title' => '1/9',  
+'title' => '1/8',  
 'block' => 'div',  
 'classes' => 'm-all t-1of8 d-1of8',
 'wrapper' => true,
 ),
 array(  
+'title' => '1/9',  
+'block' => 'div',  
+'classes' => 'm-all t-1of d-1of9',
+'wrapper' => true,
+),
+array(  
 'title' => '1/10',  
 'block' => 'div',  
-'classes' => 'm-all t-1of9 d-1of9',
+'classes' => 'm-all t-1of10 d-1of10',
 'wrapper' => true,
 ),
 array(  
 'title' => '1/11',  
 'block' => 'div',  
-'classes' => 'm-all t-1of10 d-1of10',
+'classes' => 'm-all t-1of11 d-1of11',
 'wrapper' => true,
 ),
 array(  
@@ -561,5 +567,6 @@ return $init_array;
 } 
 // Attach callback to 'tiny_mce_before_init' 
 add_filter( 'tiny_mce_before_init', 'my_mce_before_init_insert_formats' ); 
+
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
