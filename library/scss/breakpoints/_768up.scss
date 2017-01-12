@@ -43,10 +43,11 @@ NAVIGATION STYLES
 	border: 0;
 	ul {
 		background:$white;
-		margin-top:0;
-		border: 0px solid $border-color;
+		border: 1px solid $border-color;
 	}
 	li {
+		float: left;
+		position: relative;
 
 		a {
 			border-bottom: 0;

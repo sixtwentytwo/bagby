@@ -14,8 +14,7 @@
 <?php if (is_active_sidebar('sidebar1')) : ?>
 <?php get_sidebar(); ?>
 <?php else :
-endif ;
-?>
+		endif;?>
 </div>
 
 </div>

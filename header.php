@@ -37,16 +37,6 @@
 
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
-<?php 
-if ( has_post_thumbnail() ) {?>
-<style>
-@media only screen and (min-width: 768px) {
-	body{ 
-		background-image: url(<?php the_post_thumbnail_url('full')?>);
-	}
-}
-</style>
-<?php } ?>
 
 	</head>
 
