@@ -13,7 +13,7 @@ http://codex.wordpress.org/Editor_Style
 ******************************************************************/
 /* Wrap the entire post style inside the TinyMCE selector, as suggested
 here http://codex.wordpress.org/Function_Reference/add_editor_style */
-/* line 17, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000317}}
 body#tinymce.wp-editor {
   /* normalize.css 2012-07-07T09:50 UTC - http://github.com/necolas/normalize.css */
   /* ==========================================================================
@@ -252,6 +252,7 @@ body#tinymce.wp-editor {
   https://github.com/devinhunt/typebase.css
   I've edited it a bit, but it's a nice starting point.
   */
+  @import url("https://fonts.googleapis.com/css?family=Anton|Cabin|Montserrat");
   /*
    i imported this one in the functions file so bones would look sweet.
    don't forget to remove it for your site.
@@ -367,7 +368,7 @@ body#tinymce.wp-editor {
   tweeners.
   *********************/
 }
-/* line 12, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\0000312}}
 body#tinymce.wp-editor article,
 body#tinymce.wp-editor aside,
 body#tinymce.wp-editor details,
@@ -382,23 +383,23 @@ body#tinymce.wp-editor section,
 body#tinymce.wp-editor summary {
   display: block;
 }
-/* line 31, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\0000331}}
 body#tinymce.wp-editor audio,
 body#tinymce.wp-editor canvas,
 body#tinymce.wp-editor video {
   display: inline-block;
 }
-/* line 42, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\0000342}}
 body#tinymce.wp-editor audio:not([controls]) {
   display: none;
   height: 0;
 }
-/* line 52, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\0000352}}
 body#tinymce.wp-editor [hidden],
 body#tinymce.wp-editor template {
   display: none;
 }
-/* line 67, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\0000367}}
 body#tinymce.wp-editor html {
   font-family: sans-serif;
   /* 1 */
@@ -407,62 +408,61 @@ body#tinymce.wp-editor html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
 }
-/* line 77, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\0000377}}
 body#tinymce.wp-editor body {
   margin: 0;
 }
-/* line 89, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\0000389}}
 body#tinymce.wp-editor a {
   background: transparent;
 }
-/* line 97, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\0000397}}
 body#tinymce.wp-editor a:focus {
   outline: thin dotted;
 }
-/* line 105, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003105}}
 body#tinymce.wp-editor a:active,
 body#tinymce.wp-editor a:hover {
   outline: 0;
 }
-/* line 119, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003119}}
 body#tinymce.wp-editor h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-/* line 128, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003128}}
 body#tinymce.wp-editor abbr[title] {
   border-bottom: 1px dotted;
 }
-/* line 136, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003136}}
 body#tinymce.wp-editor b,
 body#tinymce.wp-editor strong,
 body#tinymce.wp-editor .strong {
   font-weight: bold;
 }
-/* line 146, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003146}}
 body#tinymce.wp-editor dfn,
 body#tinymce.wp-editor em,
 body#tinymce.wp-editor .em {
   font-style: italic;
 }
-/* line 156, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003156}}
 body#tinymce.wp-editor hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
-/* line 166, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003166}}
 body#tinymce.wp-editor p {
   -webkit-hyphens: auto;
   -epub-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
+  -ms-hyphens: auto;
+      hyphens: auto;
 }
-/* line 177, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003177}}
 body#tinymce.wp-editor pre {
   margin: 0;
 }
-/* line 185, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003185}}
 body#tinymce.wp-editor code,
 body#tinymce.wp-editor kbd,
 body#tinymce.wp-editor pre,
@@ -470,25 +470,25 @@ body#tinymce.wp-editor samp {
   font-family: monospace, serif;
   font-size: 1em;
 }
-/* line 197, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003197}}
 body#tinymce.wp-editor pre {
   white-space: pre-wrap;
 }
-/* line 205, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003205}}
 body#tinymce.wp-editor q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
-/* line 212, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003212}}
 body#tinymce.wp-editor q:before,
 body#tinymce.wp-editor q:after {
   content: '';
   content: none;
 }
-/* line 218, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003218}}
 body#tinymce.wp-editor small, body#tinymce.wp-editor .small {
   font-size: 75%;
 }
-/* line 226, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003226}}
 body#tinymce.wp-editor sub,
 body#tinymce.wp-editor sup {
   font-size: 75%;
@@ -496,67 +496,67 @@ body#tinymce.wp-editor sup {
   position: relative;
   vertical-align: baseline;
 }
-/* line 234, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003234}}
 body#tinymce.wp-editor sup {
   top: -0.5em;
 }
-/* line 238, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003238}}
 body#tinymce.wp-editor sub {
   bottom: -0.25em;
 }
-/* line 250, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003250}}
 body#tinymce.wp-editor dl,
 body#tinymce.wp-editor menu,
 body#tinymce.wp-editor ol,
 body#tinymce.wp-editor ul {
   margin: 1em 0;
 }
-/* line 257, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003257}}
 body#tinymce.wp-editor dd {
   margin: 0;
 }
-/* line 265, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003265}}
 body#tinymce.wp-editor menu {
   padding: 0 0 0 40px;
 }
-/* line 269, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003269}}
 body#tinymce.wp-editor ol,
 body#tinymce.wp-editor ul {
   padding: 0;
   list-style-type: none;
 }
-/* line 279, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003279}}
 body#tinymce.wp-editor nav ul,
 body#tinymce.wp-editor nav ol {
   list-style: none;
   list-style-image: none;
 }
-/* line 293, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003293}}
 body#tinymce.wp-editor img {
   border: 0;
 }
-/* line 301, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003301}}
 body#tinymce.wp-editor svg:not(:root) {
   overflow: hidden;
 }
-/* line 313, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003313}}
 body#tinymce.wp-editor figure {
   margin: 0;
 }
-/* line 325, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003325}}
 body#tinymce.wp-editor fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
-/* line 336, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003336}}
 body#tinymce.wp-editor legend {
   border: 0;
   /* 1 */
   padding: 0;
   /* 2 */
 }
-/* line 347, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003347}}
 body#tinymce.wp-editor button,
 body#tinymce.wp-editor input,
 body#tinymce.wp-editor select,
@@ -568,17 +568,17 @@ body#tinymce.wp-editor textarea {
   margin: 0;
   /* 3 */
 }
-/* line 361, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003361}}
 body#tinymce.wp-editor button,
 body#tinymce.wp-editor input {
   line-height: normal;
 }
-/* line 373, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003373}}
 body#tinymce.wp-editor button,
 body#tinymce.wp-editor select {
   text-transform: none;
 }
-/* line 386, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003386}}
 body#tinymce.wp-editor button,
 body#tinymce.wp-editor html input[type="button"],
 body#tinymce.wp-editor input[type="reset"],
@@ -588,12 +588,12 @@ body#tinymce.wp-editor input[type="submit"] {
   cursor: pointer;
   /* 3 */
 }
-/* line 398, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003398}}
 body#tinymce.wp-editor button[disabled],
 body#tinymce.wp-editor html input[disabled] {
   cursor: default;
 }
-/* line 408, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003408}}
 body#tinymce.wp-editor input[type="checkbox"],
 body#tinymce.wp-editor input[type="radio"] {
   box-sizing: border-box;
@@ -601,147 +601,142 @@ body#tinymce.wp-editor input[type="radio"] {
   padding: 0;
   /* 2 */
 }
-/* line 420, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003420}}
 body#tinymce.wp-editor input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box;
 }
-/* line 432, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003432}}
 body#tinymce.wp-editor input[type="search"]::-webkit-search-cancel-button,
 body#tinymce.wp-editor input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-/* line 441, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003441}}
 body#tinymce.wp-editor button::-moz-focus-inner,
 body#tinymce.wp-editor input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-/* line 452, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003452}}
 body#tinymce.wp-editor textarea {
   overflow: auto;
   /* 1 */
   vertical-align: top;
   /* 2 */
 }
-/* line 465, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003465}}
 body#tinymce.wp-editor table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* line 472, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003472}}
 body#tinymce.wp-editor * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 479, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003479}}
 body#tinymce.wp-editor .image-replacement,
 body#tinymce.wp-editor .ir {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 487, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003487}}
 body#tinymce.wp-editor .clearfix, body#tinymce.wp-editor .cf {
   zoom: 1;
 }
-/* line 489, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003489}}
 body#tinymce.wp-editor .clearfix:before, body#tinymce.wp-editor .clearfix:after, body#tinymce.wp-editor .cf:before, body#tinymce.wp-editor .cf:after {
   content: "";
   display: table;
 }
-/* line 490, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003490}}
 body#tinymce.wp-editor .clearfix:after, body#tinymce.wp-editor .cf:after {
   clear: both;
 }
-/* line 497, partials/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_normalize\.scss}line{font-family:\00003497}}
 body#tinymce.wp-editor span.amp {
   font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
   font-style: italic;
 }
-/* line 65, partials/_typography.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_typography\.scss}line{font-family:\0000367}}
 body#tinymce.wp-editor p {
   -ms-word-wrap: break-word;
   word-break: break-word;
   word-wrap: break-word;
   -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
+  -ms-hyphens: auto;
+      hyphens: auto;
   -webkit-hyphenate-before: 2;
   -webkit-hyphenate-after: 3;
   hyphenate-lines: 3;
   -webkit-font-feature-settings: "liga", "dlig";
-  -moz-font-feature-settings: "liga=1, dlig=1";
   -ms-font-feature-settings: "liga", "dlig";
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
 }
-/* line 45, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000345}}
 body#tinymce.wp-editor a, body#tinymce.wp-editor a:visited {
   color: #2980b9;
   /* on hover */
   /* on click */
 }
-/* line 49, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000349}}
 body#tinymce.wp-editor a:hover, body#tinymce.wp-editor a:focus, body#tinymce.wp-editor a:visited:hover, body#tinymce.wp-editor a:visited:focus {
   color: #7fbbe3;
 }
-/* line 58, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000358}}
 body#tinymce.wp-editor a:link, body#tinymce.wp-editor a:visited:link {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
-/* line 68, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000368}}
 body#tinymce.wp-editor h1, body#tinymce.wp-editor .h1, body#tinymce.wp-editor h2, body#tinymce.wp-editor .h2, body#tinymce.wp-editor h3, body#tinymce.wp-editor .h3, body#tinymce.wp-editor h4, body#tinymce.wp-editor .h4, body#tinymce.wp-editor h5, body#tinymce.wp-editor .h5 {
   text-rendering: optimizelegibility;
   font-weight: 500;
 }
-/* line 71, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000371}}
 body#tinymce.wp-editor h1 a, body#tinymce.wp-editor .h1 a, body#tinymce.wp-editor h2 a, body#tinymce.wp-editor .h2 a, body#tinymce.wp-editor h3 a, body#tinymce.wp-editor .h3 a, body#tinymce.wp-editor h4 a, body#tinymce.wp-editor .h4 a, body#tinymce.wp-editor h5 a, body#tinymce.wp-editor .h5 a {
   text-decoration: none;
 }
-/* line 76, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000376}}
 body#tinymce.wp-editor h1, body#tinymce.wp-editor .h1 {
   font-size: 2.5em;
   line-height: 1.333em;
 }
-/* line 81, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000381}}
 body#tinymce.wp-editor h2, body#tinymce.wp-editor .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em;
 }
-/* line 87, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000387}}
 body#tinymce.wp-editor h3, body#tinymce.wp-editor .h3 {
   font-size: 1.125em;
 }
-/* line 91, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000391}}
 body#tinymce.wp-editor h4, body#tinymce.wp-editor .h4 {
   font-size: 1.1em;
   font-weight: 700;
 }
-/* line 96, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000396}}
 body#tinymce.wp-editor h5, body#tinymce.wp-editor .h5 {
   font-size: 0.846em;
   line-height: 2.09em;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-/* line 105, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003105}}
 body#tinymce.wp-editor p {
   margin: 0 0 1.5em;
 }
-/* line 109, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003109}}
 body#tinymce.wp-editor table {
   width: 100%;
   border: 1px solid #eaedf2;
   margin-bottom: 1.5em;
 }
-/* line 114, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003114}}
 body#tinymce.wp-editor table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -749,34 +744,34 @@ body#tinymce.wp-editor table caption {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 123, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003123}}
 body#tinymce.wp-editor tr {
   border-bottom: 1px solid #eaedf2;
 }
-/* line 125, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003125}}
 body#tinymce.wp-editor tr:nth-child(even) {
   background-color: #f8f9fa;
 }
-/* line 130, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003130}}
 body#tinymce.wp-editor td {
   padding: 7px;
   border-right: 1px solid #eaedf2;
 }
-/* line 134, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003134}}
 body#tinymce.wp-editor td:last-child {
   border-right: 0;
 }
-/* line 139, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003139}}
 body#tinymce.wp-editor th {
   background-color: #f8f9fa;
   border-bottom: 1px solid #eaedf2;
   border-right: 1px solid #eaedf2;
 }
-/* line 144, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003144}}
 body#tinymce.wp-editor th:last-child {
   border-right: 0;
 }
-/* line 149, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003149}}
 body#tinymce.wp-editor blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
@@ -784,20 +779,20 @@ body#tinymce.wp-editor blockquote {
   font-style: italic;
   color: #9fa6b4;
 }
-/* line 160, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003160}}
 body#tinymce.wp-editor dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 167, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003167}}
 body#tinymce.wp-editor img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-/* line 173, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003173}}
 body#tinymce.wp-editor .size-auto,
 body#tinymce.wp-editor .size-full,
 body#tinymce.wp-editor .size-large,
@@ -806,7 +801,7 @@ body#tinymce.wp-editor .size-thumbnail {
   max-width: 100%;
   height: auto;
 }
-/* line 182, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003182}}
 body#tinymce.wp-editor pre {
   background: #323944;
   color: #f8f9fa;
@@ -816,23 +811,23 @@ body#tinymce.wp-editor pre {
   border-radius: 3px;
 }
 @media only screen and (min-width: 481px) {
-  /* line 17, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\0000317}}
   body#tinymce.wp-editor {
     /* at this larger size, we can start to align images */
   }
-  /* line 200, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003200}}
   body#tinymce.wp-editor .alignleft, body#tinymce.wp-editor img.alignleft {
     margin-right: 1.5em;
     display: inline;
     float: left;
   }
-  /* line 205, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003205}}
   body#tinymce.wp-editor .alignright, body#tinymce.wp-editor img.alignright {
     margin-left: 1.5em;
     display: inline;
     float: right;
   }
-  /* line 210, editor-style.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/editor-style\.scss}line{font-family:\00003210}}
   body#tinymce.wp-editor .aligncenter, body#tinymce.wp-editor img.aligncenter {
     margin-right: auto;
     margin-left: auto;

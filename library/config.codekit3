@@ -53,12 +53,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/editor-style.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/css\/editor-style.css.map",
-		"oF": 0
-		},
 	"\/css\/ie.css": {
 		"aP": 0,
 		"bl": 0,
@@ -68,12 +62,6 @@
 		"oAP": "\/css\/ie-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/css\/ie.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/css\/ie.css.map",
-		"oF": 0
 		},
 	"\/css\/login.css": {
 		"aP": 0,
@@ -561,8 +549,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 505854486,
-	"displayValue": "library",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "sixtwentytwo",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/images\/apple-touch-icon.png"
 	},
 "projectSettings": {
