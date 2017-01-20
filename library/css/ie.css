@@ -90,7 +90,7 @@ I've edited it a bit, but it's a nice starting point.
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/partials\/_typography\.scss}line{font-family:\0000367}}
+/* line 67, ../scss/partials/_typography.scss */
 p {
   -ms-word-wrap: break-word;
   word-break: break-word;
@@ -189,23 +189,23 @@ them in here, they won't work.
 NAVIGATION STYLES
 *********************/
 /* .menu is clearfixed inside mixins.scss */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000333}}
+/* line 33, ../scss/breakpoints/_481up.scss */
 .menu {
   /* end .menu ul */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000334}}
+/* line 34, ../scss/breakpoints/_481up.scss */
 .menu ul {
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000335}}
+/* line 35, ../scss/breakpoints/_481up.scss */
 .menu ul li {
   /*
   plan your menus and drop-downs wisely.
   */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000336}}
+/* line 36, ../scss/breakpoints/_481up.scss */
 .menu ul li a {
   /*
   you can use hover styles here even though this size
@@ -218,23 +218,23 @@ NAVIGATION STYLES
 POSTS & CONTENT STYLES
 *********************/
 /* entry content */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000381}}
+/* line 81, ../scss/breakpoints/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000385}}
+/* line 85, ../scss/breakpoints/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000390}}
+/* line 90, ../scss/breakpoints/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000395}}
+/* line 95, ../scss/breakpoints/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -270,7 +270,7 @@ GENERAL STYLES
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000326}}
+/* line 26, ../scss/breakpoints/_768up.scss */
 .wrap {
   width: 760px;
 }
@@ -281,20 +281,20 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000342}}
+/* line 42, ../scss/breakpoints/_768up.scss */
 .nav {
   border: 0;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000344}}
+/* line 44, ../scss/breakpoints/_768up.scss */
 .nav ul {
   background: #fff;
-  border: 1px solid rgba(240, 29, 79, 0.025);
+  border: 0px solid rgba(240, 29, 79, 0.025);
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000349}}
+/* line 49, ../scss/breakpoints/_768up.scss */
 .nav li {
   float: left;
   position: relative;
@@ -303,7 +303,7 @@ NAVIGATION STYLES
   */
   /* showing sub-menus */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000353}}
+/* line 53, ../scss/breakpoints/_768up.scss */
 .nav li a {
   border-bottom: 0;
   /*
@@ -311,7 +311,7 @@ NAVIGATION STYLES
   has the possibility of being a mobile device.
   */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000370}}
+/* line 70, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -322,7 +322,7 @@ NAVIGATION STYLES
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000379}}
+/* line 79, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   float: none;
@@ -332,7 +332,7 @@ NAVIGATION STYLES
   for usability. k, bai.
   */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000381}}
+/* line 81, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -341,18 +341,18 @@ NAVIGATION STYLES
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000398}}
+/* line 98, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003108}}
+/* line 108, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   top: 0;
   left: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003123}}
+/* line 123, ../scss/breakpoints/_768up.scss */
 .nav li:hover > ul {
   top: auto;
   visibility: visible;
@@ -362,28 +362,28 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003143}}
+/* line 143, ../scss/breakpoints/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003147}}
+/* line 147, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003152}}
+/* line 152, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003157}}
+/* line 157, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003165}}
+/* line 165, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -408,7 +408,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/aaron\/Desktop\/work\%20desktop\/622tularosa\.com\/sixtwentytwo\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003273}}
+/* line 273, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

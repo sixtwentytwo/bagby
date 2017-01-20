@@ -116,7 +116,7 @@ new image size.
 
 /************* THEME CUSTOMIZE *********************/
 
-/* 
+/*
 A good tutorial for creating your own Sections, Controls and Settings:
 http://code.tutsplus.com/series/a-guide-to-the-wordpress-theme-customizer--wp-33722
 
@@ -134,7 +134,7 @@ function bones_theme_customizer($wp_customize)
 {
     // $wp_customize calls go here.
 //
-// Uncomment the below lines to remove the default customize sections 
+// Uncomment the below lines to remove the default customize sections
 
 // $wp_customize->remove_section('title_tagline');
 // $wp_customize->remove_section('colors');
@@ -434,18 +434,18 @@ function social_media_links($wp_admin_bar)
         'title' =>  'All Posts & Pages',
         'meta'   => array( 'class' => 'first-toolbar-group' ),
     );
-    $wp_admin_bar->add_node( $args );   
+    $wp_admin_bar->add_node( $args );
 
-    
+
             $args = array();
-    
+
             array_push($args,array(
                 'id'        =>  'allposts',
                 'title'     =>  'Posts',
                 'href'      =>  '/wp-admin/edit.php',
                 'parent'    =>  'posts_pages',
             ));
-            
+
 
             array_push($args,array(
                 'id'        => 'allpages',
@@ -460,16 +460,16 @@ function social_media_links($wp_admin_bar)
                 'href'      =>  '/wp-admin/upload.php',
                 'parent'    =>  'posts_pages',
             ));
-            
+
             sort($args);
             for($a=0;$a<sizeOf($args);$a++)
             {
                 $wp_admin_bar->add_node($args[$a]);
             }
 
-            
-    
-} 
+
+
+}
 /*
 END Add All Pages & Posts to Admin Bar -aca
 */
@@ -479,94 +479,95 @@ END Add All Pages & Posts to Admin Bar -aca
 * Callback function to filter the MCE settings
 */
 
-function my_mce_before_init_insert_formats( $init_array ) {  
+function my_mce_before_init_insert_formats( $init_array ) {
 
 // Define the style_formats array
 
-$style_formats = array(  
+$style_formats = array(
 // Each array child is a format with it's own settings
-array(  
-'title' => '1/1',  
-'block' => 'div',  
+array(
+'title' => '1/1',
+'block' => 'div',
 'classes' => 'm-all t-all d-all cf',
 'wrapper' => true,
 ),
-array(  
-'title' => '1/2',  
-'block' => 'div',  
+array(
+'title' => '1/2',
+'block' => 'div',
 'classes' => 'm-all t-1of2 d-1of2',
 'wrapper' => true,
 ),
-array(  
-'title' => '1/3',  
-'block' => 'div',  
+array(
+'title' => '1/3',
+'block' => 'div',
 'classes' => 'm-all t-1of3 d-1of3',
 'wrapper' => true,
 ),
-array(  
-'title' => '1/4',  
-'block' => 'div',  
+array(
+'title' => '1/4',
+'block' => 'div',
 'classes' => 'm-all t-1of4 d-1of4',
 'wrapper' => true,
 ),
-array(  
-'title' => '1/5',  
-'block' => 'div',  
+array(
+'title' => '1/5',
+'block' => 'div',
 'classes' => 'm-all t-1of5 d-1of5',
 'wrapper' => true,
 ),
-array(  
-'title' => '1/6',  
-'block' => 'div',  
+array(
+'title' => '1/6',
+'block' => 'div',
 'classes' => 'm-all t-1of6 d-1of6',
 'wrapper' => true,
 ),
-array(  
-'title' => '1/7',  
-'block' => 'div',  
+array(
+'title' => '1/7',
+'block' => 'div',
 'classes' => 'm-all t-1of7 d-1of7',
 'wrapper' => true,
 ),
-array(  
-'title' => '1/8',  
-'block' => 'div',  
+array(
+'title' => '1/8',
+'block' => 'div',
 'classes' => 'm-all t-1of8 d-1of8',
 'wrapper' => true,
 ),
-array(  
-'title' => '1/9',  
-'block' => 'div',  
+array(
+'title' => '1/9',
+'block' => 'div',
 'classes' => 'm-all t-1of d-1of9',
 'wrapper' => true,
 ),
-array(  
-'title' => '1/10',  
-'block' => 'div',  
+array(
+'title' => '1/10',
+'block' => 'div',
 'classes' => 'm-all t-1of10 d-1of10',
 'wrapper' => true,
 ),
-array(  
-'title' => '1/11',  
-'block' => 'div',  
+array(
+'title' => '1/11',
+'block' => 'div',
 'classes' => 'm-all t-1of11 d-1of11',
 'wrapper' => true,
 ),
-array(  
-'title' => '1/12',  
-'block' => 'div',  
+array(
+'title' => '1/12',
+'block' => 'div',
 'classes' => 'm-all t-1of12 d-1of12',
 'wrapper' => true,
 ),
 
-);  
+);
 // Insert the array, JSON ENCODED, into 'style_formats'
-$init_array['style_formats'] = json_encode( $style_formats );  
+$init_array['style_formats'] = json_encode( $style_formats );
 
-return $init_array;  
+return $init_array;
 
-} 
-// Attach callback to 'tiny_mce_before_init' 
-add_filter( 'tiny_mce_before_init', 'my_mce_before_init_insert_formats' ); 
+}
+// Attach callback to 'tiny_mce_before_init'
+add_filter( 'tiny_mce_before_init', 'my_mce_before_init_insert_formats' );
 
+add_filter( 'auto_update_plugin', '__return_true' );
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

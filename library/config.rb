@@ -1,3 +1,4 @@
+require 'compass/import-once/activate'
 # Compass is a great cross-platform tool for compiling SASS. 
 # This compass config file will allow you to 
 # quickly dive right in.
