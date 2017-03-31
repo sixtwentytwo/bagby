@@ -257,7 +257,14 @@ SIDEBARS & ASIDES
 	.textwidget {}
 	.widget_text {}
 	.textwidget p {}
-
+.size-auto,
+			.size-full,
+			.size-large,
+			.size-medium,
+			.size-thumbnail {
+				max-width: 50%;
+				height: auto;
+			}
 
 /*********************
 FOOTER STYLES

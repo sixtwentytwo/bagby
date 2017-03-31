@@ -7,7 +7,7 @@
 		"uuidString": "2E69298F-7E71-426F-B3B8-16C2AC52D2A6"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25704",
 "files": {
 	"\/admin.php": {
 		"ft": 8192,
@@ -21,8 +21,14 @@
 		"oAP": "\/bones.php",
 		"oF": 0
 		},
+	"\/build\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -42,6 +48,16 @@
 		"oA": 2,
 		"oAP": "\/css\/admin.css.map",
 		"oF": 0
+		},
+	"\/css\/breakpoints\/_base.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/breakpoints\/_base-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/css\/editor-style.css": {
 		"aP": 0,
@@ -126,10 +142,12 @@
 	"\/images\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 8439,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/images\/basket-empty.svg": {
 		"ft": 2097152,
@@ -164,18 +182,22 @@
 	"\/images\/custom-post-icon.png": {
 		"ft": 32768,
 		"iS": 462,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/custom-post-icon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/images\/empty-cart.png": {
 		"ft": 32768,
 		"iS": 24245,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/empty-cart.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/images\/empty-cart.svg": {
 		"ft": 2097152,
@@ -190,18 +212,22 @@
 	"\/images\/empty.png": {
 		"ft": 32768,
 		"iS": 23343,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/empty.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/images\/login-logo.png": {
 		"ft": 32768,
 		"iS": 7019,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/login-logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/images\/nothing.gif": {
 		"ft": 4194304,
@@ -209,7 +235,7 @@
 		"oA": 0,
 		"oAP": "\/images\/nothing.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/nothumb.gif": {
 		"ft": 4194304,
@@ -217,23 +243,36 @@
 		"oA": 0,
 		"oAP": "\/images\/nothumb.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/resume-icon.png": {
 		"ft": 32768,
 		"iS": 21389,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/resume-icon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/images\/win8-tile-icon.png": {
 		"ft": 32768,
 		"iS": 8048,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/win8-tile-icon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
+		},
+	"\/js\/libs\/modernizr.custom.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/modernizr.custom.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/libs\/modernizr.custom.min.js": {
 		"ft": 64,
@@ -244,11 +283,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/min\/scripts.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/scripts.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/min\/scripts.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/scripts.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scripts-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/scripts-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -563,7 +620,8 @@
 	"creationDate": 505854486,
 	"displayValue": "sixtwentytwo",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/images\/apple-touch-icon.png"
+	"iconImageName": "\/images\/apple-touch-icon.png",
+	"lastBuiltDate": 512636149
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1235,6 +1293,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1432,6 +1494,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1711,6 +1777,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -1762,6 +1832,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -1856,6 +1930,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2302,7 +2380,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2395,7 +2474,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
