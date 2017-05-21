@@ -11,6 +11,7 @@ Bones.esproj/
 ############
 prepros.json
 *.codekit
+*.codekit3
 *.pydevproject
 .project
 .metadata
