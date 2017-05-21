@@ -354,6 +354,7 @@ body#tinymce.wp-editor {
   line-height: 1.5;
   color: #323944;
   -webkit-font-smoothing: antialiased;
+  margin: 1em auto;
   /*********************
 	LINK STYLES
 	*********************/
@@ -676,67 +677,67 @@ body#tinymce.wp-editor p {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
 }
-/* line 45, ../scss/editor-style.scss */
+/* line 47, ../scss/editor-style.scss */
 body#tinymce.wp-editor a, body#tinymce.wp-editor a:visited {
   color: #2980b9;
   /* on hover */
   /* on click */
 }
-/* line 49, ../scss/editor-style.scss */
+/* line 51, ../scss/editor-style.scss */
 body#tinymce.wp-editor a:hover, body#tinymce.wp-editor a:focus, body#tinymce.wp-editor a:visited:hover, body#tinymce.wp-editor a:visited:focus {
   color: #7fbbe3;
 }
-/* line 58, ../scss/editor-style.scss */
+/* line 60, ../scss/editor-style.scss */
 body#tinymce.wp-editor a:link, body#tinymce.wp-editor a:visited:link {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
-/* line 68, ../scss/editor-style.scss */
+/* line 70, ../scss/editor-style.scss */
 body#tinymce.wp-editor h1, body#tinymce.wp-editor .h1, body#tinymce.wp-editor h2, body#tinymce.wp-editor .h2, body#tinymce.wp-editor h3, body#tinymce.wp-editor .h3, body#tinymce.wp-editor h4, body#tinymce.wp-editor .h4, body#tinymce.wp-editor h5, body#tinymce.wp-editor .h5 {
   text-rendering: optimizelegibility;
   font-weight: 500;
 }
-/* line 71, ../scss/editor-style.scss */
+/* line 73, ../scss/editor-style.scss */
 body#tinymce.wp-editor h1 a, body#tinymce.wp-editor .h1 a, body#tinymce.wp-editor h2 a, body#tinymce.wp-editor .h2 a, body#tinymce.wp-editor h3 a, body#tinymce.wp-editor .h3 a, body#tinymce.wp-editor h4 a, body#tinymce.wp-editor .h4 a, body#tinymce.wp-editor h5 a, body#tinymce.wp-editor .h5 a {
   text-decoration: none;
 }
-/* line 76, ../scss/editor-style.scss */
+/* line 78, ../scss/editor-style.scss */
 body#tinymce.wp-editor h1, body#tinymce.wp-editor .h1 {
   font-size: 2.5em;
   line-height: 1.333em;
 }
-/* line 81, ../scss/editor-style.scss */
+/* line 83, ../scss/editor-style.scss */
 body#tinymce.wp-editor h2, body#tinymce.wp-editor .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em;
 }
-/* line 87, ../scss/editor-style.scss */
+/* line 89, ../scss/editor-style.scss */
 body#tinymce.wp-editor h3, body#tinymce.wp-editor .h3 {
   font-size: 1.125em;
 }
-/* line 91, ../scss/editor-style.scss */
+/* line 93, ../scss/editor-style.scss */
 body#tinymce.wp-editor h4, body#tinymce.wp-editor .h4 {
   font-size: 1.1em;
   font-weight: 700;
 }
-/* line 96, ../scss/editor-style.scss */
+/* line 98, ../scss/editor-style.scss */
 body#tinymce.wp-editor h5, body#tinymce.wp-editor .h5 {
   font-size: 0.846em;
   line-height: 2.09em;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-/* line 105, ../scss/editor-style.scss */
+/* line 107, ../scss/editor-style.scss */
 body#tinymce.wp-editor p {
   margin: 0 0 1.5em;
 }
-/* line 109, ../scss/editor-style.scss */
+/* line 111, ../scss/editor-style.scss */
 body#tinymce.wp-editor table {
   width: 100%;
   border: 1px solid #eaedf2;
   margin-bottom: 1.5em;
 }
-/* line 114, ../scss/editor-style.scss */
+/* line 116, ../scss/editor-style.scss */
 body#tinymce.wp-editor table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -744,34 +745,34 @@ body#tinymce.wp-editor table caption {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 123, ../scss/editor-style.scss */
+/* line 125, ../scss/editor-style.scss */
 body#tinymce.wp-editor tr {
   border-bottom: 1px solid #eaedf2;
 }
-/* line 125, ../scss/editor-style.scss */
+/* line 127, ../scss/editor-style.scss */
 body#tinymce.wp-editor tr:nth-child(even) {
   background-color: #f8f9fa;
 }
-/* line 130, ../scss/editor-style.scss */
+/* line 132, ../scss/editor-style.scss */
 body#tinymce.wp-editor td {
   padding: 7px;
   border-right: 1px solid #eaedf2;
 }
-/* line 134, ../scss/editor-style.scss */
+/* line 136, ../scss/editor-style.scss */
 body#tinymce.wp-editor td:last-child {
   border-right: 0;
 }
-/* line 139, ../scss/editor-style.scss */
+/* line 141, ../scss/editor-style.scss */
 body#tinymce.wp-editor th {
   background-color: #f8f9fa;
   border-bottom: 1px solid #eaedf2;
   border-right: 1px solid #eaedf2;
 }
-/* line 144, ../scss/editor-style.scss */
+/* line 146, ../scss/editor-style.scss */
 body#tinymce.wp-editor th:last-child {
   border-right: 0;
 }
-/* line 149, ../scss/editor-style.scss */
+/* line 151, ../scss/editor-style.scss */
 body#tinymce.wp-editor blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
@@ -779,20 +780,20 @@ body#tinymce.wp-editor blockquote {
   font-style: italic;
   color: #9fa6b4;
 }
-/* line 160, ../scss/editor-style.scss */
+/* line 162, ../scss/editor-style.scss */
 body#tinymce.wp-editor dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 167, ../scss/editor-style.scss */
+/* line 169, ../scss/editor-style.scss */
 body#tinymce.wp-editor img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-/* line 173, ../scss/editor-style.scss */
+/* line 175, ../scss/editor-style.scss */
 body#tinymce.wp-editor .size-auto,
 body#tinymce.wp-editor .size-full,
 body#tinymce.wp-editor .size-large,
@@ -801,7 +802,7 @@ body#tinymce.wp-editor .size-thumbnail {
   max-width: 50%;
   height: auto;
 }
-/* line 182, ../scss/editor-style.scss */
+/* line 184, ../scss/editor-style.scss */
 body#tinymce.wp-editor pre {
   background: #323944;
   color: #f8f9fa;
@@ -815,19 +816,19 @@ body#tinymce.wp-editor pre {
   body#tinymce.wp-editor {
     /* at this larger size, we can start to align images */
   }
-  /* line 200, ../scss/editor-style.scss */
+  /* line 202, ../scss/editor-style.scss */
   body#tinymce.wp-editor .alignleft, body#tinymce.wp-editor img.alignleft {
     margin-right: 1.5em;
     display: inline;
     float: left;
   }
-  /* line 205, ../scss/editor-style.scss */
+  /* line 207, ../scss/editor-style.scss */
   body#tinymce.wp-editor .alignright, body#tinymce.wp-editor img.alignright {
     margin-left: 1.5em;
     display: inline;
     float: right;
   }
-  /* line 210, ../scss/editor-style.scss */
+  /* line 212, ../scss/editor-style.scss */
   body#tinymce.wp-editor .aligncenter, body#tinymce.wp-editor img.aligncenter {
     margin-right: auto;
     margin-left: auto;

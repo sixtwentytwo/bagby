@@ -2596,7 +2596,7 @@ you can add resource intensive styles.
   .size-large,
   .size-medium,
   .size-thumbnail {
-    max-width: 50%;
+    max-width: 50% !important;
     height: auto;
   }
 

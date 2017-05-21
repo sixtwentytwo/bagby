@@ -1,5 +1,6 @@
-# Compass is a great cross-platform tool for compiling SASS. 
-# This compass config file will allow you to 
+require 'compass/import-once/activate'
+# Compass is a great cross-platform tool for compiling SASS.
+# This compass config file will allow you to
 # quickly dive right in.
 # For more info about compass + SASS: http://net.tutsplus.com/tutorials/html-css-techniques/using-compass-and-sass-for-css-in-your-next-project/
 
@@ -9,14 +10,15 @@
 http_path = "/"
 
 # 2. probably don't need to touch these
-css_dir = "../css"
-sass_dir = "./"
-images_dir = "../images"
-javascripts_dir = "../js"
-relative_assets = true
+css_dir = "library/css"
+sass_dir = "library/scss"
+images_dir = "library/images"
+javascripts_dir = "library/js"
+relative_assets = false
 asset_cache_buster = :none
 cache = false
-sourcemap = :file
+sourcemap = true
+sass_options = { :sourcemap => :file }
 
 # 3. You can select your preferred output style here (can be overridden via the command line):
 output_style = :expanded
