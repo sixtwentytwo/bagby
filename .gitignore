@@ -61,3 +61,5 @@ woocommerce/
 password.txt
 *.sublime*
 sftp*
+
+*.css.map
