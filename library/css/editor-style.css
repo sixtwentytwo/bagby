@@ -312,5 +312,4 @@ body#tinymce.wp-editor pre { background: #323944; color: #f8f9fa; font-size: 0.9
   body#tinymce.wp-editor .alignright, body#tinymce.wp-editor img.alignright { margin-left: 1.5em; display: inline; float: right; }
   /* line 212, ../scss/editor-style.scss */
   body#tinymce.wp-editor .aligncenter, body#tinymce.wp-editor img.aligncenter { margin-right: auto; margin-left: auto; display: block; clear: both; } }
-
 /*# sourceMappingURL=editor-style.css.map */
