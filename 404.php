@@ -1,3 +1,4 @@
+<!-- 404.php -->
 <?php get_header(); ?>
 
 			<div id="content">
@@ -5,15 +6,15 @@
 				<div id="inner-content" class="wrap cf">
 
 						<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
-						
+
 						<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
-						
+
 						<?php else : ?>
-						
+
 						<main id="main" class="m-all t-all d-all cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
-						
+
 						<?php endif; ?>
-						
+
 						<article id="post-not-found" class="hentry cf">
 
 							<header class="article-header">

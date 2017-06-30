@@ -1,3 +1,4 @@
+<!-- search.php -->
 <?php get_header(); ?>
 
 			<div id="content">
@@ -31,15 +32,7 @@
 
 								</section>
 
-								<footer class="article-footer">
 
-									<?php if(get_the_category_list(', ') != ''): ?>
-                  					<?php printf( __( 'Filed under: %1$s', 'bonestheme' ), get_the_category_list(', ') ); ?>
-                  					<?php endif; ?>
-
-                 					<?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
-
-								</footer> <!-- end article footer -->
 
 							</article>
 
@@ -56,9 +49,7 @@
 										<section class="entry-content">
 											<p><?php _e( 'Try your search again.', 'bonestheme' ); ?></p>
 										</section>
-										<footer class="article-footer">
-												<p><?php _e( 'This is the error message in the search.php template.', 'bonestheme' ); ?></p>
-										</footer>
+
 									</article>
 
 							<?php endif; ?>
