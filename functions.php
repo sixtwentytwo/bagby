@@ -577,6 +577,17 @@ return $init_array;
 // Attach callback to 'tiny_mce_before_init'
 add_filter( 'tiny_mce_before_init', 'my_mce_before_init_insert_formats' );
 
+add_filter( 'auto_update_core', '__return_true' );
+
 add_filter( 'auto_update_plugin', '__return_true' );
+
+
+// add_theme_support( 'wc-product-gallery-zoom' );
+// add_theme_support( 'wc-product-gallery-lightbox' );
+// add_theme_support( 'wc-product-gallery-slider' );
+
+// remove_theme_support( 'wc-product-gallery-zoom' );
+// remove_theme_support( 'wc-product-gallery-lightbox' );
+// remove_theme_support( 'wc-product-gallery-slider' );
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
