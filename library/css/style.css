@@ -1753,6 +1753,7 @@ POSTS & CONTENT STYLES
 /* line 336, ../scss/breakpoints/_base.scss */
 .entry-content p {
   margin: 0 0 1.5em;
+  clear: both;
 }
 /* line 361, ../scss/breakpoints/_base.scss */
 .entry-content table {
