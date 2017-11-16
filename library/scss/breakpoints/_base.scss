@@ -26,7 +26,7 @@ body{
   	&.woocommerce-page{
   		background: $white;
   	}
-  	
+
 }
 
 .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
@@ -208,7 +208,7 @@ and more scalable.
 			}
 		}
 
-		&:first-child {			
+		&:first-child {
 		}
 
 		&:last-child {}
@@ -243,14 +243,14 @@ and more scalable.
 
 		}
 
-	
+
 		&:first-child {
 			a{
-			padding-left: 0; 
+			padding-left: 0;
 			}
 		}
 
-		&:last-child {} 
+		&:last-child {}
 
 	}	/* end .menu li */
 
@@ -490,7 +490,7 @@ left: 0;
 width: 100%;
 height: 100%;
 }
-		
+
 /* image gallery styles */
 .jp-carousel-info {
 display: none;
@@ -568,7 +568,7 @@ p{
 margin: 0 !important;
 }
 img{
-margin-bottom:0 !important; 
+margin-bottom:0 !important;
 }
 thead{
 display: none;
@@ -582,7 +582,7 @@ color: black;
 margin: 0 !important;
 
 }
-.resume{ 
+.resume{
 table, td, tr {
 border:0 !important;
 }
@@ -609,7 +609,7 @@ table, thead, tbody, th, td, tr {
 display: block;
 text-align: left !important;
 margin: 0 !important;
-border-width: 0;		
+border-width: 0;
 }
 
 /* Hide table headers (but not display: none;, for accessibility) */
@@ -1054,3 +1054,30 @@ FOOTER STYLES
 
 
 	.copyright {}
+/****
+VIDEOS
+***/
+
+.video-container, .embed-youtube, .fb-video{
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container,
+.embed-youtube,
+.fb-video{
+  iframe,
+  object,
+  embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}}
+/***
+END VIDEOS
+***/
