@@ -71,9 +71,9 @@ if (!isset($content_width)) {
 /************* THUMBNAIL SIZE OPTIONS *************/
 
 // Thumbnail sizes
-add_image_size('480', 720, 480, false);
-add_image_size('720', 1080, 720, false);
-add_image_size('1080', 1920, 1080, false);
+// add_image_size('480', 720, 480, false);
+// add_image_size('720', 1080, 720, false);
+// add_image_size('1080', 1920, 1080, false);
 
 /*
 to add more sizes, simply copy a line from above
@@ -95,16 +95,16 @@ You can change the names and dimensions to whatever
 you like. Enjoy!
 */
 
- add_filter('image_size_names_choose', 'bones_custom_image_sizes');
+ // add_filter('image_size_names_choose', 'bones_custom_image_sizes');
 
- function bones_custom_image_sizes($sizes)
- {
-     return array_merge($sizes, array(
-     'bones-thumb-480' => __('480'),
-     'bones-thumb-720' => __('720'),
-     'bones-thumb-1080' => __('1080'),
-     ));
- }
+ // function bones_custom_image_sizes($sizes)
+ // {
+ //     return array_merge($sizes, array(
+ //     'bones-thumb-480' => __('480'),
+ //     'bones-thumb-720' => __('720'),
+ //     'bones-thumb-1080' => __('1080'),
+ //     ));
+ // }
 
 /*
 The function above adds the ability to use the dropdown menu to select
