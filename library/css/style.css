@@ -28,7 +28,7 @@ the whole project.
  * Correct `block` display not defined in IE 8/9.
  */
 @import url("https://fonts.googleapis.com/css?family=Anton|Cabin|Montserrat");
-/* line 12, ../scss/partials/_normalize.scss */
+/* line 12, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 article,
 aside,
 details,
@@ -47,7 +47,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 31, ../scss/partials/_normalize.scss */
+/* line 31, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 audio,
 canvas,
 video {
@@ -58,7 +58,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 42, ../scss/partials/_normalize.scss */
+/* line 42, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -68,7 +68,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
-/* line 52, ../scss/partials/_normalize.scss */
+/* line 52, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -82,7 +82,7 @@ template {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 67, ../scss/partials/_normalize.scss */
+/* line 67, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -95,7 +95,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 77, ../scss/partials/_normalize.scss */
+/* line 77, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 body {
   margin: 0;
 }
@@ -106,7 +106,7 @@ body {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 89, ../scss/partials/_normalize.scss */
+/* line 89, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 a {
   background: transparent;
 }
@@ -114,7 +114,7 @@ a {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 97, ../scss/partials/_normalize.scss */
+/* line 97, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -122,7 +122,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 105, ../scss/partials/_normalize.scss */
+/* line 105, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -135,7 +135,7 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 119, ../scss/partials/_normalize.scss */
+/* line 119, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -144,7 +144,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 128, ../scss/partials/_normalize.scss */
+/* line 128, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -152,7 +152,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 136, ../scss/partials/_normalize.scss */
+/* line 136, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 b,
 strong,
 .strong {
@@ -162,7 +162,7 @@ strong,
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 146, ../scss/partials/_normalize.scss */
+/* line 146, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 dfn,
 em,
 .em {
@@ -172,7 +172,7 @@ em,
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 156, ../scss/partials/_normalize.scss */
+/* line 156, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -182,7 +182,7 @@ hr {
 /*
  * proper formatting (http://blog.fontdeck.com/post/9037028497/hyphens)
 */
-/* line 166, ../scss/partials/_normalize.scss */
+/* line 166, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 p {
   -webkit-hyphens: auto;
   -epub-hyphens: auto;
@@ -193,7 +193,7 @@ p {
 /*
  * Addresses margins set differently in IE6/7.
  */
-/* line 177, ../scss/partials/_normalize.scss */
+/* line 177, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 pre {
   margin: 0;
 }
@@ -201,7 +201,7 @@ pre {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 185, ../scss/partials/_normalize.scss */
+/* line 185, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 code,
 kbd,
 pre,
@@ -213,7 +213,7 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-/* line 197, ../scss/partials/_normalize.scss */
+/* line 197, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 pre {
   white-space: pre-wrap;
 }
@@ -221,7 +221,7 @@ pre {
 /**
  * Set consistent quote types.
  */
-/* line 205, ../scss/partials/_normalize.scss */
+/* line 205, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -229,14 +229,14 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 212, ../scss/partials/_normalize.scss */
+/* line 212, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-/* line 218, ../scss/partials/_normalize.scss */
+/* line 218, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 small, .small {
   font-size: 75%;
 }
@@ -244,7 +244,7 @@ small, .small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 226, ../scss/partials/_normalize.scss */
+/* line 226, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -253,12 +253,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 234, ../scss/partials/_normalize.scss */
+/* line 234, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 238, ../scss/partials/_normalize.scss */
+/* line 238, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -269,7 +269,7 @@ sub {
 /*
  * Addresses margins set differently in IE6/7.
  */
-/* line 250, ../scss/partials/_normalize.scss */
+/* line 250, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 dl,
 menu,
 ol,
@@ -277,7 +277,7 @@ ul {
   margin: 1em 0;
 }
 
-/* line 257, ../scss/partials/_normalize.scss */
+/* line 257, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 dd {
   margin: 0;
 }
@@ -285,12 +285,12 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7.
  */
-/* line 265, ../scss/partials/_normalize.scss */
+/* line 265, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 menu {
   padding: 0 0 0 40px;
 }
 
-/* line 269, ../scss/partials/_normalize.scss */
+/* line 269, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 ol,
 ul {
   padding: 0;
@@ -300,7 +300,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE7.
  */
-/* line 279, ../scss/partials/_normalize.scss */
+/* line 279, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -313,7 +313,7 @@ nav ol {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-/* line 293, ../scss/partials/_normalize.scss */
+/* line 293, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 img {
   border: 0;
 }
@@ -321,7 +321,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 301, ../scss/partials/_normalize.scss */
+/* line 301, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -332,7 +332,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-/* line 313, ../scss/partials/_normalize.scss */
+/* line 313, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -343,7 +343,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 325, ../scss/partials/_normalize.scss */
+/* line 325, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -354,7 +354,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 336, ../scss/partials/_normalize.scss */
+/* line 336, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -367,7 +367,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 347, ../scss/partials/_normalize.scss */
+/* line 347, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 button,
 input,
 select,
@@ -384,7 +384,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 361, ../scss/partials/_normalize.scss */
+/* line 361, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -396,7 +396,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 373, ../scss/partials/_normalize.scss */
+/* line 373, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -409,7 +409,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 386, ../scss/partials/_normalize.scss */
+/* line 386, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -423,7 +423,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 398, ../scss/partials/_normalize.scss */
+/* line 398, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -433,7 +433,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 408, ../scss/partials/_normalize.scss */
+/* line 408, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -448,7 +448,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 420, ../scss/partials/_normalize.scss */
+/* line 420, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -461,7 +461,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 432, ../scss/partials/_normalize.scss */
+/* line 432, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -470,7 +470,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 441, ../scss/partials/_normalize.scss */
+/* line 441, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -481,7 +481,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 452, ../scss/partials/_normalize.scss */
+/* line 452, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -495,19 +495,19 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 465, ../scss/partials/_normalize.scss */
+/* line 465, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 472, ../scss/partials/_normalize.scss */
+/* line 472, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 479, ../scss/partials/_normalize.scss */
+/* line 479, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 .image-replacement,
 .ir {
   text-indent: 100%;
@@ -515,16 +515,18 @@ table {
   overflow: hidden;
 }
 
-/* line 487, ../scss/partials/_normalize.scss */
+/* line 487, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 .clearfix, .cf, .comment-respond {
   zoom: 1;
 }
-/* line 489, ../scss/partials/_normalize.scss */
+
+/* line 489, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 .clearfix:before, .clearfix:after, .cf:before, .comment-respond:before, .cf:after, .comment-respond:after {
   content: "";
   display: table;
 }
-/* line 490, ../scss/partials/_normalize.scss */
+
+/* line 490, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 .clearfix:after, .cf:after, .comment-respond:after {
   clear: both;
 }
@@ -533,7 +535,7 @@ table {
 use the best ampersand
 http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
-/* line 497, ../scss/partials/_normalize.scss */
+/* line 497, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_normalize.scss */
 span.amp {
   font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
   font-style: italic;
@@ -611,7 +613,7 @@ I've edited it a bit, but it's a nice starting point.
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
-/* line 67, ../scss/partials/_typography.scss */
+/* line 67, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_typography.scss */
 p {
   -ms-word-wrap: break-word;
   word-break: break-word;
@@ -740,7 +742,7 @@ own grids. It's better in the long run and allows you full control
 over your project's layout.
 
 ******************************************************************/
-/* line 35, ../scss/partials/_grid.scss */
+/* line 35, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
 .last-col {
   float: right;
   padding-right: 0 !important;
@@ -753,279 +755,247 @@ There are four types, but you can add or customize
 them however you see fit.
 */
 @media (max-width: 767px) {
-  /* line 49, ../scss/partials/_grid.scss */
+  /* line 49, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .m-all {
     float: left;
     padding-right: 0.75em;
     width: 100%;
     padding-right: 0;
   }
-
-  /* line 55, ../scss/partials/_grid.scss */
+  /* line 55, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .m-1of2 {
     float: left;
     padding-right: 0.75em;
     width: 50%;
   }
-
-  /* line 60, ../scss/partials/_grid.scss */
+  /* line 60, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .m-1of3 {
     float: left;
     padding-right: 0.75em;
     width: 33.33%;
   }
-
-  /* line 65, ../scss/partials/_grid.scss */
+  /* line 65, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .m-2of3 {
     float: left;
     padding-right: 0.75em;
     width: 66.66%;
   }
-
-  /* line 70, ../scss/partials/_grid.scss */
+  /* line 70, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .m-1of4 {
     float: left;
     padding-right: 0.75em;
     width: 25%;
   }
-
-  /* line 75, ../scss/partials/_grid.scss */
+  /* line 75, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .m-3of4 {
     float: left;
     padding-right: 0.75em;
     width: 75%;
   }
 }
+
 /* Portrait tablet to landscape */
 @media (min-width: 768px) and (max-width: 1029px) {
-  /* line 86, ../scss/partials/_grid.scss */
+  /* line 86, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .t-all {
     float: left;
     padding-right: 0.75em;
     width: 100%;
     padding-right: 0;
   }
-
-  /* line 92, ../scss/partials/_grid.scss */
+  /* line 92, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .t-1of2 {
     float: left;
     padding-right: 0.75em;
     width: 50%;
   }
-
-  /* line 97, ../scss/partials/_grid.scss */
+  /* line 97, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .t-1of3 {
     float: left;
     padding-right: 0.75em;
     width: 33.33%;
   }
-
-  /* line 102, ../scss/partials/_grid.scss */
+  /* line 102, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .t-2of3 {
     float: left;
     padding-right: 0.75em;
     width: 66.66%;
   }
-
-  /* line 107, ../scss/partials/_grid.scss */
+  /* line 107, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .t-1of4 {
     float: left;
     padding-right: 0.75em;
     width: 25%;
   }
-
-  /* line 112, ../scss/partials/_grid.scss */
+  /* line 112, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .t-3of4 {
     float: left;
     padding-right: 0.75em;
     width: 75%;
   }
-
-  /* line 117, ../scss/partials/_grid.scss */
+  /* line 117, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .t-1of5 {
     float: left;
     padding-right: 0.75em;
     width: 20%;
   }
-
-  /* line 122, ../scss/partials/_grid.scss */
+  /* line 122, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .t-2of5 {
     float: left;
     padding-right: 0.75em;
     width: 40%;
   }
-
-  /* line 127, ../scss/partials/_grid.scss */
+  /* line 127, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .t-3of5 {
     float: left;
     padding-right: 0.75em;
     width: 60%;
   }
-
-  /* line 132, ../scss/partials/_grid.scss */
+  /* line 132, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .t-4of5 {
     float: left;
     padding-right: 0.75em;
     width: 80%;
   }
 }
+
 /* Landscape to small desktop */
 @media (min-width: 1030px) {
-  /* line 142, ../scss/partials/_grid.scss */
+  /* line 142, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-all {
     float: left;
     padding-right: 0.75em;
     width: 100%;
     padding-right: 0;
   }
-
-  /* line 148, ../scss/partials/_grid.scss */
+  /* line 148, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-1of2 {
     float: left;
     padding-right: 0.75em;
     width: 50%;
   }
-
-  /* line 153, ../scss/partials/_grid.scss */
+  /* line 153, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-1of3 {
     float: left;
     padding-right: 0.75em;
     width: 33.33%;
   }
-
-  /* line 158, ../scss/partials/_grid.scss */
+  /* line 158, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-2of3 {
     float: left;
     padding-right: 0.75em;
     width: 66.66%;
   }
-
-  /* line 163, ../scss/partials/_grid.scss */
+  /* line 163, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-1of4 {
     float: left;
     padding-right: 0.75em;
     width: 25%;
   }
-
-  /* line 168, ../scss/partials/_grid.scss */
+  /* line 168, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-3of4 {
     float: left;
     padding-right: 0.75em;
     width: 75%;
   }
-
-  /* line 173, ../scss/partials/_grid.scss */
+  /* line 173, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-1of5 {
     float: left;
     padding-right: 0.75em;
     width: 20%;
   }
-
-  /* line 178, ../scss/partials/_grid.scss */
+  /* line 178, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-2of5 {
     float: left;
     padding-right: 0.75em;
     width: 40%;
   }
-
-  /* line 183, ../scss/partials/_grid.scss */
+  /* line 183, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-3of5 {
     float: left;
     padding-right: 0.75em;
     width: 60%;
   }
-
-  /* line 188, ../scss/partials/_grid.scss */
+  /* line 188, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-4of5 {
     float: left;
     padding-right: 0.75em;
     width: 80%;
   }
-
-  /* line 193, ../scss/partials/_grid.scss */
+  /* line 193, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-1of6 {
     float: left;
     padding-right: 0.75em;
     width: 16.6666666667%;
   }
-
-  /* line 198, ../scss/partials/_grid.scss */
+  /* line 198, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-1of7 {
     float: left;
     padding-right: 0.75em;
     width: 14.2857142857%;
   }
-
-  /* line 203, ../scss/partials/_grid.scss */
+  /* line 203, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-2of7 {
     float: left;
     padding-right: 0.75em;
     width: 28.5714286%;
   }
-
-  /* line 208, ../scss/partials/_grid.scss */
+  /* line 208, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-3of7 {
     float: left;
     padding-right: 0.75em;
     width: 42.8571429%;
   }
-
-  /* line 213, ../scss/partials/_grid.scss */
+  /* line 213, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-4of7 {
     float: left;
     padding-right: 0.75em;
     width: 57.1428572%;
   }
-
-  /* line 218, ../scss/partials/_grid.scss */
+  /* line 218, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-5of7 {
     float: left;
     padding-right: 0.75em;
     width: 71.4285715%;
   }
-
-  /* line 223, ../scss/partials/_grid.scss */
+  /* line 223, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-6of7 {
     float: left;
     padding-right: 0.75em;
     width: 85.7142857%;
   }
-
-  /* line 228, ../scss/partials/_grid.scss */
+  /* line 228, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-1of8 {
     float: left;
     padding-right: 0.75em;
     width: 12.5%;
   }
-
-  /* line 233, ../scss/partials/_grid.scss */
+  /* line 233, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-1of9 {
     float: left;
     padding-right: 0.75em;
     width: 11.1111111111%;
   }
-
-  /* line 238, ../scss/partials/_grid.scss */
+  /* line 238, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-1of10 {
     float: left;
     padding-right: 0.75em;
     width: 10%;
   }
-
-  /* line 243, ../scss/partials/_grid.scss */
+  /* line 243, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-1of11 {
     float: left;
     padding-right: 0.75em;
     width: 9.09090909091%;
   }
-
-  /* line 248, ../scss/partials/_grid.scss */
+  /* line 248, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_grid.scss */
   .d-1of12 {
     float: left;
     padding-right: 0.75em;
     width: 8.33%;
   }
 }
+
 /*********************
 IMPORTING MODULES
 Modules are reusable blocks or elements we use throughout the project.
@@ -1043,32 +1013,32 @@ If you want to use these alerts in your design, you can. If not,
 you can just remove this stylesheet.
 
 ******************************************************************/
-/* line 15, ../scss/modules/_alerts.scss */
+/* line 15, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_alerts.scss */
 .alert-help, .alert-info, .alert-error, .alert-success {
   margin: 10px;
   padding: 5px 18px;
   border: 1px solid;
 }
 
-/* line 21, ../scss/modules/_alerts.scss */
+/* line 21, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_alerts.scss */
 .alert-help {
   border-color: #e8dc59;
   background: #ebe16f;
 }
 
-/* line 27, ../scss/modules/_alerts.scss */
+/* line 27, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_alerts.scss */
 .alert-info {
   border-color: #bfe4f4;
   background: #d5edf8;
 }
 
-/* line 33, ../scss/modules/_alerts.scss */
+/* line 33, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_alerts.scss */
 .alert-error {
   border-color: #f8cdce;
   background: #fbe3e4;
 }
 
-/* line 39, ../scss/modules/_alerts.scss */
+/* line 39, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_alerts.scss */
 .alert-success {
   border-color: #deeaae;
   background: #e6efc2;
@@ -1098,7 +1068,7 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-/* line 27, ../scss/modules/_buttons.scss */
+/* line 27, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_buttons.scss */
 .blue-btn, .comment-reply-link, #submit {
   display: inline-block;
   position: relative;
@@ -1116,13 +1086,15 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out;
 }
-/* line 44, ../scss/modules/_buttons.scss */
+
+/* line 44, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_buttons.scss */
 .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
   color: #fff;
   text-decoration: none;
   outline: none;
 }
-/* line 51, ../scss/modules/_buttons.scss */
+
+/* line 51, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_buttons.scss */
 .blue-btn:active, .comment-reply-link:active, #submit:active {
   top: 1px;
 }
@@ -1132,15 +1104,17 @@ An example button.
 You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
-/* line 62, ../scss/modules/_buttons.scss */
+/* line 62, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_buttons.scss */
 .blue-btn, .comment-reply-link, #submit {
   background-color: #2980b9;
 }
-/* line 66, ../scss/modules/_buttons.scss */
+
+/* line 66, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_buttons.scss */
 .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
   background-color: #2574a8;
 }
-/* line 71, ../scss/modules/_buttons.scss */
+
+/* line 71, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_buttons.scss */
 .blue-btn:active, .comment-reply-link:active, #submit:active {
   background-color: #2472a4;
 }
@@ -1165,7 +1139,7 @@ http://websemantics.co.uk/online_tools/image_to_data_uri_convertor/
 /*********************
 INPUTS
 *********************/
-/* line 24, ../scss/modules/_forms.scss */
+/* line 24, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_forms.scss */
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -1202,7 +1176,8 @@ textarea,
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out;
 }
-/* line 59, ../scss/modules/_forms.scss */
+
+/* line 59, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_forms.scss */
 input[type="text"]:focus, input[type="text"]:active,
 input[type="password"]:focus,
 input[type="password"]:active,
@@ -1239,7 +1214,8 @@ textarea:active,
   background-color: #f7f8fa;
   outline: none;
 }
-/* line 66, ../scss/modules/_forms.scss */
+
+/* line 66, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_forms.scss */
 input[type="text"].error, input[type="text"].is-invalid,
 input[type="password"].error,
 input[type="password"].is-invalid,
@@ -1281,7 +1257,8 @@ textarea.is-invalid,
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDREQkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDREQ0YwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ3ODRGRkE2RjA0QTExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERBRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+U8iT5wAAAedJREFUeNqk1U9I02Ecx/HtV3aIFAc1hcRDUoGXRAq0oNLA2CrsEFmHbikZu0iQYIFGYAiegkCpLipBxPpDEBMUzB0EhSG2LhG7hMR2GviPgUTvB57Bw8P3+U23B16HPX8+e/b8nt93wezZSMCnhXETF3AcB5BDCnH8Dq98ExcGHcFn8Ah3cdDni+fxnPDv9oAnTB7CKu6VCFXtChZy56LxUjt+jfuB8toSOth9wd7xWAWhqrUjYR/FRTwWJm+iIPT/w7bQf5ljiZnBg45dtKFX6H+LU8gIY8OEV6vgTkStwXWE8BPTGDHGPqNPz2mCfSOOYkA99TvCt1bhGPL68zMcwmncMuape10jrI+q4BbHi/FLn31S9z2x5tRhTc+1W506ipM+T3oRD4X+8+qtc4SqFvL0z/Fr14S+Szjis8bz9Lvvaq8cwS/wwGfdlqfPSWqTiFlX77o13u9Ym1PBs8JAytpRoy44X9Ft9E/gvbA+rYKn8NcaaMVc8UHgBw4b9/iqUQZ6hOAJFbyDcUflmsEX4a6+wTtHGfhAIUqa1U29Zc2BytouThD8x6xuN5CtMPi2CrXLZkZf/HyZoRFCP7n+QVR4PV7uI/AjGghN7OU/r1ilnqILtfpNC+o6vIFljBKYlhb/F2AAgaBsWR5wRiIAAAAASUVORK5CYII=);
   outline-color: #fbe3e4;
 }
-/* line 78, ../scss/modules/_forms.scss */
+
+/* line 78, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_forms.scss */
 input[type="text"].success, input[type="text"].is-valid,
 input[type="password"].success,
 input[type="password"].is-valid,
@@ -1323,7 +1300,8 @@ textarea.is-valid,
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDRERkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDRFMEYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY0MzQ0NERERjA0QjExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERFRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7olkTQAAAfhJREFUeNqklU9oE0EUhzdroWjw0tBeWlDxkEaIp55TsCU9VKIgCrHBelA8CQ1Kr1WPbZrQ3gqtQqvGqxpQc2jBk6BIIaAGD4qNCKURpDSKiPi98gLDsJt//uBjsztvfnk7895sIPAw6/joGMThFJyAXn2+A+9gA57/TaY/eU0OeBgfhGm4DiGnsb7DAszxBz/NAdcKjMJLuNWCqagHbsscN5+L+hmH4QkMOe1L5jzFfNA2PgT34ajTuY7AGuZB0/hmh5m+gS0r8xv1zRvg+gGCHZiOwnF4DP3iB3sQkYxPd2C6CWfhB9Xwlus5+K1j4jXuaq3a+gM1H9OPcAa+7q9lPidZJqHbiIm7Wg22rsEI7FrPSzAMX/T+ADyAKSsu7Fr1KplehLvwCs5DvfBf65p+MypqRbO1FXK9utH4/QKuaqYTsG3E3INJv00Q46px3+XxanJ/Ute2/vqP4FKDza2KcdljIKdnhS0xXYULTaqmLMZFn8FFSFtvt6x70ExFCS5oUXspq2ssa7oEl1swFa+CGFdgtkHgPDyDKy02zyxNU6lXRUZb1EuHYayNNs+Yh5B0WQo+/8fpJnNTZFuzz2OpjoQ2QruSOQlMy35fEGmEGMxY9e1brxobw7TkWA1h6xfckUPb+JhGoE/Hpfvew7qUld/H9J8AAwDpw3WYrxcZ3QAAAABJRU5ErkJggg==);
   outline-color: #e6efc2;
 }
-/* line 90, ../scss/modules/_forms.scss */
+
+/* line 90, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_forms.scss */
 input[type="text"][disabled], input[type="text"].is-disabled,
 input[type="password"][disabled],
 input[type="password"].is-disabled,
@@ -1361,7 +1339,8 @@ textarea.is-disabled,
   border-color: #cfcfcf;
   opacity: 0.6;
 }
-/* line 96, ../scss/modules/_forms.scss */
+
+/* line 96, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_forms.scss */
 input[type="text"][disabled]:focus, input[type="text"][disabled]:active, input[type="text"].is-disabled:focus, input[type="text"].is-disabled:active,
 input[type="password"][disabled]:focus,
 input[type="password"][disabled]:active,
@@ -1430,19 +1409,19 @@ textarea.is-disabled:active,
   background-color: #d5edf8;
 }
 
-/* line 106, ../scss/modules/_forms.scss */
+/* line 106, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_forms.scss */
 input[type="password"] {
   letter-spacing: 0.3em;
 }
 
-/* line 111, ../scss/modules/_forms.scss */
+/* line 111, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_forms.scss */
 textarea {
   max-width: 100%;
   min-height: 120px;
   line-height: 1.5em;
 }
 
-/* line 118, ../scss/modules/_forms.scss */
+/* line 118, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/modules/_forms.scss */
 select {
   -webkit-appearance: none;
   /* 1 */
@@ -1474,7 +1453,7 @@ and will be used across all viewports.
 /*********************
 GENERAL STYLES
 *********************/
-/* line 18, ../scss/breakpoints/_base.scss */
+/* line 18, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 body {
   font-family: "Cabin", sans-serif;
   font-size: 100%;
@@ -1484,17 +1463,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 26, ../scss/breakpoints/_base.scss */
+
+/* line 26, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 body.woocommerce-page {
   background: #fff;
 }
 
-/* line 32, ../scss/breakpoints/_base.scss */
+/* line 32, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
   float: left;
 }
 
-/* line 36, ../scss/breakpoints/_base.scss */
+/* line 36, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .woocommerce .woocommerce-ordering, .woocommerce .woocommerce-result-count {
   margin: 1em 0 0 0;
 }
@@ -1541,7 +1521,7 @@ style a page via class
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-/* line 84, ../scss/breakpoints/_base.scss */
+/* line 84, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .wrap {
   width: 96%;
   margin: 0 auto;
@@ -1550,71 +1530,74 @@ LAYOUT & GRID STYLES
 /*********************
 LINK STYLES
 *********************/
-/* line 93, ../scss/breakpoints/_base.scss */
+/* line 93, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 a, a:visited {
   color: #2980b9;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 97, ../scss/breakpoints/_base.scss */
+
+/* line 97, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 a:hover, a:focus, a:visited:hover, a:visited:focus {
   color: #7fbbe3;
 }
-/* line 106, ../scss/breakpoints/_base.scss */
+
+/* line 106, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 a:link, a:visited:link {
   /*
-  this highlights links on iPhones/iPads.
-  so it basically works like the :hover selector
-  for mobile devices.
-  */
+		this highlights links on iPhones/iPads.
+		so it basically works like the :hover selector
+		for mobile devices.
+		*/
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
 
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-/* line 120, ../scss/breakpoints/_base.scss */
+/* line 120, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   font-family: "Montserrat", sans-serif;
   text-rendering: optimizelegibility;
   font-weight: bolder;
   /*
-  if you're going to use webfonts, be sure to check your weights
-  http://css-tricks.com/watch-your-font-weight/
-  */
+	if you're going to use webfonts, be sure to check your weights
+	http://css-tricks.com/watch-your-font-weight/
+	*/
   /* removing text decoration from all headline links */
 }
-/* line 130, ../scss/breakpoints/_base.scss */
+
+/* line 130, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 135, ../scss/breakpoints/_base.scss */
+/* line 135, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 h1, .h1 {
   font-size: 2.5em;
   line-height: 1.333em;
 }
 
-/* line 140, ../scss/breakpoints/_base.scss */
+/* line 140, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 h2, .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em;
 }
 
-/* line 146, ../scss/breakpoints/_base.scss */
+/* line 146, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 h3, .h3 {
   font-size: 1.125em;
 }
 
-/* line 150, ../scss/breakpoints/_base.scss */
+/* line 150, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 h4, .h4 {
   font-size: 1.1em;
   font-weight: 700;
 }
 
-/* line 155, ../scss/breakpoints/_base.scss */
+/* line 155, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 h5, .h5 {
   font-size: 0.846em;
   line-height: 2.09em;
@@ -1625,14 +1608,21 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
-/* line 166, ../scss/breakpoints/_base.scss */
+/* line 166, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .header {
   background-color: transparent;
+  margin-top: 10vh;
 }
 
-/* line 170, ../scss/breakpoints/_base.scss */
+/* line 171, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 #logo {
   margin: 0em 0;
+}
+
+/* line 173, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
+#logo img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*********************
@@ -1645,7 +1635,7 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-/* line 189, ../scss/breakpoints/_base.scss */
+/* line 192, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .nav {
   border-bottom: 0;
   margin: 0;
@@ -1653,39 +1643,44 @@ and more scalable.
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 193, ../scss/breakpoints/_base.scss */
+
+/* line 196, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .nav li {
   /*
-  so you really have to rethink your dropdowns for mobile.
-  you don't want to have it expand too much because the
-  screen is so small. How you manage your menu should
-  depend on the project. Here's some great info on it:
-  http://www.alistapart.com/articles/organizing-mobile/
-  */
+		so you really have to rethink your dropdowns for mobile.
+		you don't want to have it expand too much because the
+		screen is so small. How you manage your menu should
+		depend on the project. Here's some great info on it:
+		http://www.alistapart.com/articles/organizing-mobile/
+		*/
 }
-/* line 195, ../scss/breakpoints/_base.scss */
+
+/* line 198, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .nav li a {
   display: block;
   text-decoration: none;
   padding: 0.75em;
   /*
-  remember this is for mobile ONLY, so there's no need
-  to even declare hover styles here, you can do it in
-  the style.scss file where it's relevant. We want to
-  keep this file as small as possible!
-  */
+			remember this is for mobile ONLY, so there's no need
+			to even declare hover styles here, you can do it in
+			the style.scss file where it's relevant. We want to
+			keep this file as small as possible!
+			*/
 }
-/* line 226, ../scss/breakpoints/_base.scss */
+
+/* line 229, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   float: none;
 }
-/* line 228, ../scss/breakpoints/_base.scss */
+
+/* line 231, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 30px;
 }
-/* line 248, ../scss/breakpoints/_base.scss */
+
+/* line 251, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .nav li:first-child a {
   padding-left: 0;
 }
@@ -1694,35 +1689,38 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 273, ../scss/breakpoints/_base.scss */
+/* line 276, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 #content {
   margin-top: 0em;
 }
 
-/* line 277, ../scss/breakpoints/_base.scss */
+/* line 280, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .hentry {
   background-color: transparent;
   border-radius: 3px;
   margin-bottom: 1.5em;
   border: 1px solid rgba(240, 29, 79, 0.025);
 }
-/* line 283, ../scss/breakpoints/_base.scss */
+
+/* line 286, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .hentry header {
   border-bottom: 1px solid #f8f9fa;
   padding: 1.5em;
 }
-/* line 288, ../scss/breakpoints/_base.scss */
+
+/* line 291, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .hentry footer {
   padding: 1.5em;
   border-top: 1px solid #f8f9fa;
 }
-/* line 292, ../scss/breakpoints/_base.scss */
+
+/* line 295, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .hentry footer p {
   margin: 0;
 }
 
 /* end .hentry */
-/* line 299, ../scss/breakpoints/_base.scss */
+/* line 302, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .single-title,
 .page-title,
 .entry-title {
@@ -1739,7 +1737,7 @@ POSTS & CONTENT STYLES
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
 /* post meta */
-/* line 324, ../scss/breakpoints/_base.scss */
+/* line 327, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .byline {
   color: #9fa6b4;
   font-style: italic;
@@ -1747,27 +1745,30 @@ POSTS & CONTENT STYLES
 }
 
 /* entry content */
-/* line 333, ../scss/breakpoints/_base.scss */
+/* line 336, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content {
   padding: 1.5em 1.5em 0;
   /*
-  image alignment on a screen this size may be
-  a bit difficult. It's set to start aligning
-  and floating images at the next breakpoint,
-  but it's up to you. Feel free to change it up.
-  */
+			image alignment on a screen this size may be
+			a bit difficult. It's set to start aligning
+			and floating images at the next breakpoint,
+			but it's up to you. Feel free to change it up.
+			*/
 }
-/* line 336, ../scss/breakpoints/_base.scss */
+
+/* line 339, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content p {
   margin: 0 0 1.5em;
 }
-/* line 361, ../scss/breakpoints/_base.scss */
+
+/* line 364, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content table {
   width: 100%;
   border: 1px solid #eaedf2;
   margin-bottom: 1.5em;
 }
-/* line 366, ../scss/breakpoints/_base.scss */
+
+/* line 369, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -1775,34 +1776,41 @@ POSTS & CONTENT STYLES
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 375, ../scss/breakpoints/_base.scss */
+
+/* line 378, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content tr {
   border-bottom: 1px solid #eaedf2;
 }
-/* line 378, ../scss/breakpoints/_base.scss */
+
+/* line 381, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content tr:nth-child(even) {
   background-color: #f8f9fa;
 }
-/* line 383, ../scss/breakpoints/_base.scss */
+
+/* line 386, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content td {
   padding: 7px;
   border-right: 1px solid #eaedf2;
 }
-/* line 387, ../scss/breakpoints/_base.scss */
+
+/* line 390, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content td:last-child {
   border-right: 0;
 }
-/* line 392, ../scss/breakpoints/_base.scss */
+
+/* line 395, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content th {
   background-color: #f8f9fa;
   border-bottom: 1px solid #eaedf2;
   border-right: 1px solid #eaedf2;
 }
-/* line 397, ../scss/breakpoints/_base.scss */
+
+/* line 400, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content th:last-child {
   border-right: 0;
 }
-/* line 402, ../scss/breakpoints/_base.scss */
+
+/* line 405, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
@@ -1810,20 +1818,23 @@ POSTS & CONTENT STYLES
   font-style: italic;
   color: #9fa6b4;
 }
-/* line 417, ../scss/breakpoints/_base.scss */
+
+/* line 420, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 424, ../scss/breakpoints/_base.scss */
+
+/* line 427, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-/* line 440, ../scss/breakpoints/_base.scss */
+
+/* line 443, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content .size-auto,
 .entry-content .size-full,
 .entry-content .size-large,
@@ -1832,7 +1843,8 @@ POSTS & CONTENT STYLES
   max-width: 100%;
   height: auto;
 }
-/* line 449, ../scss/breakpoints/_base.scss */
+
+/* line 452, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .entry-content pre {
   background: #323944;
   color: #f8f9fa;
@@ -1843,20 +1855,22 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 459, ../scss/breakpoints/_base.scss */
+/* line 462, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .wp-caption {
   max-width: 100%;
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-/* line 465, ../scss/breakpoints/_base.scss */
+
+/* line 468, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
-/* line 471, ../scss/breakpoints/_base.scss */
+
+/* line 474, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -1864,7 +1878,7 @@ POSTS & CONTENT STYLES
 }
 
 /* end .wp-caption */
-/* line 478, ../scss/breakpoints/_base.scss */
+/* line 481, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -1873,7 +1887,7 @@ POSTS & CONTENT STYLES
   overflow: hidden;
 }
 
-/* line 484, ../scss/breakpoints/_base.scss */
+/* line 487, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -1885,54 +1899,58 @@ POSTS & CONTENT STYLES
 }
 
 /* image gallery styles */
-/* line 495, ../scss/breakpoints/_base.scss */
+/* line 498, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .jp-carousel-info {
   display: none;
 }
 
-/* line 499, ../scss/breakpoints/_base.scss */
+/* line 502, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .gallery-columns-3 dl.gallery-item {
   width: 33.3333%;
 }
 
-/* line 504, ../scss/breakpoints/_base.scss */
+/* line 507, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 dl.gallery-item {
   float: left;
   padding: 0em;
 }
 
-/* line 509, ../scss/breakpoints/_base.scss */
+/* line 512, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .gallery * {
   line-height: 0em;
 }
 
-/* line 514, ../scss/breakpoints/_base.scss */
+/* line 517, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .gallery {
   line-height: 0em;
   margin: 0;
 }
-/* line 519, ../scss/breakpoints/_base.scss */
+
+/* line 522, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .gallery dl {
   margin: 0;
 }
-/* line 524, ../scss/breakpoints/_base.scss */
+
+/* line 527, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .gallery dl img {
   width: 100%;
   height: auto;
   margin: 0;
 }
-/* line 536, ../scss/breakpoints/_base.scss */
+
+/* line 539, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .gallery dt {
   margin: 0;
 }
-/* line 539, ../scss/breakpoints/_base.scss */
+
+/* line 542, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .gallery dd {
   margin: 0;
 }
 
 /* end .gallery */
 /* gallery caption styles */
-/* line 553, ../scss/breakpoints/_base.scss */
+/* line 556, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .tags {
   margin: 0;
 }
@@ -1940,84 +1958,87 @@ dl.gallery-item {
 /*********************
 RESUME
 *********************/
-/* line 559, ../scss/breakpoints/_base.scss */
+/* line 562, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .resume dd {
   display: none;
 }
 
-/* line 562, ../scss/breakpoints/_base.scss */
+/* line 565, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .printresume {
   background-color: white;
 }
 
-/* line 567, ../scss/breakpoints/_base.scss */
+/* line 570, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .resume p {
   margin: 0 !important;
 }
-/* line 570, ../scss/breakpoints/_base.scss */
+
+/* line 573, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .resume img {
   margin-bottom: 0 !important;
 }
-/* line 573, ../scss/breakpoints/_base.scss */
+
+/* line 576, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .resume thead {
   display: none;
 }
-/* line 576, ../scss/breakpoints/_base.scss */
+
+/* line 579, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .resume td {
   vertical-align: top;
 }
 
-/* line 579, ../scss/breakpoints/_base.scss */
+/* line 582, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .resume table {
   background-color: white;
   color: black;
   margin: 0 !important;
 }
 
-/* line 586, ../scss/breakpoints/_base.scss */
+/* line 589, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .resume table, .resume td, .resume tr {
   border: 0 !important;
 }
 
-/* line 590, ../scss/breakpoints/_base.scss */
+/* line 593, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .resume table tr td:first-child {
   padding-left: 1em;
 }
 
-/* line 593, ../scss/breakpoints/_base.scss */
+/* line 596, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 tr td:last-child {
   /* styles */
 }
 
-/* line 600, ../scss/breakpoints/_base.scss */
+/* line 603, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .resume td a {
   color: black;
 }
 
 @media only screen and (max-width: 767px) {
   /* Force table to not be like tables anymore */
-  /* line 607, ../scss/breakpoints/_base.scss */
+  /* line 610, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
   .resume {
     /* Hide table headers (but not display: none;, for accessibility) */
   }
-  /* line 608, ../scss/breakpoints/_base.scss */
+  /* line 611, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
   .resume table, .resume thead, .resume tbody, .resume th, .resume td, .resume tr {
     display: block;
     text-align: left !important;
     margin: 0 !important;
     border-width: 0;
   }
-  /* line 616, ../scss/breakpoints/_base.scss */
+  /* line 619, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
   .resume thead tr {
     position: absolute;
     top: -9999px;
     left: -9999px;
   }
-  /* line 621, ../scss/breakpoints/_base.scss */
+  /* line 624, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
   .resume .credits tr:nth-of-type(even) {
     background: #f8f9fa;
   }
-  /* line 625, ../scss/breakpoints/_base.scss */
+  /* line 628, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
   .resume td {
     /* Behave  like a "row" */
     border: none;
@@ -2025,11 +2046,11 @@ tr td:last-child {
     padding: 0 1em 0 1em !important;
     width: 100% !important;
   }
-  /* line 632, ../scss/breakpoints/_base.scss */
+  /* line 635, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
   .resume td * {
     text-align: left !important;
   }
-  /* line 636, ../scss/breakpoints/_base.scss */
+  /* line 639, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
   .resume td:before {
     /* Now like a table header */
     position: absolute;
@@ -2041,23 +2062,25 @@ tr td:last-child {
     white-space: nowrap;
   }
 }
+
 /*********************
 END RESUME
 *********************/
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
-/* line 663, ../scss/breakpoints/_base.scss */
+/* line 666, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .pagination,
 .wp-prev-next {
   margin: 1.5em 0;
 }
 
-/* line 667, ../scss/breakpoints/_base.scss */
+/* line 670, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .pagination {
   text-align: center;
 }
-/* line 670, ../scss/breakpoints/_base.scss */
+
+/* line 673, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .pagination ul {
   display: inline-block;
   background-color: #fff;
@@ -2066,7 +2089,8 @@ PAGE NAVI STYLES
   clear: both;
   border-radius: 3px;
 }
-/* line 679, ../scss/breakpoints/_base.scss */
+
+/* line 682, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .pagination li {
   padding: 0;
   margin: 0;
@@ -2075,7 +2099,8 @@ PAGE NAVI STYLES
   overflow: hidden;
   border-right: 1px solid #eaedf2;
 }
-/* line 688, ../scss/breakpoints/_base.scss */
+
+/* line 691, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .pagination a, .pagination span {
   margin: 0;
   text-decoration: none;
@@ -2088,17 +2113,20 @@ PAGE NAVI STYLES
   display: block;
   color: #2980b9;
 }
-/* line 700, ../scss/breakpoints/_base.scss */
+
+/* line 703, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
   background-color: #2980b9;
   color: #fff;
 }
-/* line 706, ../scss/breakpoints/_base.scss */
+
+/* line 709, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .pagination .current {
   cursor: default;
   color: #323944;
 }
-/* line 710, ../scss/breakpoints/_base.scss */
+
+/* line 713, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .pagination .current:hover, .pagination .current:focus {
   background-color: #fff;
   color: #323944;
@@ -2106,11 +2134,12 @@ PAGE NAVI STYLES
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
-/* line 723, ../scss/breakpoints/_base.scss */
+/* line 726, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .wp-prev-next .prev-link {
   float: left;
 }
-/* line 727, ../scss/breakpoints/_base.scss */
+
+/* line 730, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .wp-prev-next .next-link {
   float: right;
 }
@@ -2120,7 +2149,7 @@ PAGE NAVI STYLES
 COMMENT STYLES
 ******************************************************************/
 /* h3 comment title */
-/* line 738, ../scss/breakpoints/_base.scss */
+/* line 741, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 #comments-title {
   padding: 0.75em;
   margin: 0;
@@ -2128,13 +2157,13 @@ COMMENT STYLES
   /* number of comments span */
 }
 
-/* line 758, ../scss/breakpoints/_base.scss */
+/* line 761, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .commentlist {
   margin: 0;
   list-style-type: none;
 }
 
-/* line 763, ../scss/breakpoints/_base.scss */
+/* line 766, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment {
   position: relative;
   clear: both;
@@ -2146,78 +2175,92 @@ COMMENT STYLES
   /* end children */
   /* general comment classes */
 }
-/* line 770, ../scss/breakpoints/_base.scss */
+
+/* line 773, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment .comment-author {
   padding: 7px;
   border: 0;
 }
-/* line 776, ../scss/breakpoints/_base.scss */
+
+/* line 779, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment .vcard {
   margin-left: 50px;
 }
-/* line 779, ../scss/breakpoints/_base.scss */
+
+/* line 782, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment .vcard cite.fn {
   font-weight: 700;
   font-style: normal;
 }
-/* line 787, ../scss/breakpoints/_base.scss */
+
+/* line 790, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment .vcard time {
   display: block;
   font-size: 0.9em;
   font-style: italic;
 }
-/* line 792, ../scss/breakpoints/_base.scss */
+
+/* line 795, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment .vcard time a {
   color: #9fa6b4;
   text-decoration: none;
 }
-/* line 796, ../scss/breakpoints/_base.scss */
+
+/* line 799, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment .vcard time a:hover {
   text-decoration: underline;
 }
-/* line 806, ../scss/breakpoints/_base.scss */
+
+/* line 809, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment .vcard .avatar {
   position: absolute;
   left: 16px;
   border-radius: 50%;
 }
-/* line 814, ../scss/breakpoints/_base.scss */
+
+/* line 817, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment:last-child {
   margin-bottom: 0;
 }
-/* line 818, ../scss/breakpoints/_base.scss */
+
+/* line 821, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment .children {
   margin: 0;
   /* variations */
   /* change number for different depth */
 }
-/* line 836, ../scss/breakpoints/_base.scss */
+
+/* line 839, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment[class*=depth-] {
   margin-top: 1.1em;
 }
-/* line 840, ../scss/breakpoints/_base.scss */
+
+/* line 843, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment.depth-1 {
   margin-left: 0;
   margin-top: 0;
 }
-/* line 845, ../scss/breakpoints/_base.scss */
+
+/* line 848, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment:not(.depth-1) {
   margin-top: 0;
   margin-left: 7px;
   padding: 7px;
 }
-/* line 858, ../scss/breakpoints/_base.scss */
+
+/* line 861, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment.odd {
   background-color: #fff;
 }
-/* line 861, ../scss/breakpoints/_base.scss */
+
+/* line 864, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment.even {
   background: #f8f9fa;
 }
 
 /* comment meta */
 /* comment content */
-/* line 895, ../scss/breakpoints/_base.scss */
+/* line 898, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment_content p {
   margin: 0.7335em 0 1.5em;
   font-size: 1em;
@@ -2226,7 +2269,7 @@ COMMENT STYLES
 
 /* end .commentlist .comment_content */
 /* comment reply link */
-/* line 904, ../scss/breakpoints/_base.scss */
+/* line 907, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment-reply-link {
   font-size: 0.9em;
   float: right;
@@ -2234,7 +2277,7 @@ COMMENT STYLES
 
 /* end .commentlist .comment-reply-link */
 /* edit comment link */
-/* line 916, ../scss/breakpoints/_base.scss */
+/* line 919, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment-edit-link {
   font-style: italic;
   margin: 0 7px;
@@ -2245,34 +2288,35 @@ COMMENT STYLES
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
-/* line 929, ../scss/breakpoints/_base.scss */
+/* line 932, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment-respond {
   padding: 1.5em;
   border-top: 1px solid #f8f9fa;
 }
 
-/* line 935, ../scss/breakpoints/_base.scss */
+/* line 938, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 #reply-title {
   margin: 0;
 }
 
-/* line 939, ../scss/breakpoints/_base.scss */
+/* line 942, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .logged-in-as {
   color: #9fa6b4;
   font-style: italic;
   margin: 0;
 }
-/* line 944, ../scss/breakpoints/_base.scss */
+
+/* line 947, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .logged-in-as a {
   color: #323944;
 }
 
-/* line 949, ../scss/breakpoints/_base.scss */
+/* line 952, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .comment-form-comment {
   margin: 1.5em 0 0.75em;
 }
 
-/* line 953, ../scss/breakpoints/_base.scss */
+/* line 956, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .form-allowed-tags {
   padding: 1.5em;
   background-color: #f8f9fa;
@@ -2280,14 +2324,14 @@ COMMENT FORM STYLES
 }
 
 /* comment submit button */
-/* line 960, ../scss/breakpoints/_base.scss */
+/* line 963, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 #submit {
   float: right;
   font-size: 1em;
 }
 
 /* comment form title */
-/* line 967, ../scss/breakpoints/_base.scss */
+/* line 970, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 #comment-form-title {
   margin: 0 0 1.1em;
 }
@@ -2295,13 +2339,13 @@ COMMENT FORM STYLES
 /* cancel comment reply link */
 /* logged in comments */
 /* allowed tags */
-/* line 980, ../scss/breakpoints/_base.scss */
+/* line 983, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 #allowed_tags {
   margin: 1.5em 10px 0.7335em 0;
 }
 
 /* no comments */
-/* line 985, ../scss/breakpoints/_base.scss */
+/* line 988, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .nocomments {
   margin: 0 20px 1.1em;
 }
@@ -2309,12 +2353,12 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 1001, ../scss/breakpoints/_base.scss */
+/* line 1004, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
 
-/* line 1018, ../scss/breakpoints/_base.scss */
+/* line 1021, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .no-widgets {
   background-color: #fff;
   padding: 1.5em;
@@ -2327,26 +2371,26 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 1031, ../scss/breakpoints/_base.scss */
+/* line 1034, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .footer {
   clear: both;
   color: #323944;
 }
 
 /*
-if you checked out the link above:
-http://www.alistapart.com/articles/organizing-mobile/
-you'll want to style the footer nav
-a bit more in-depth. Remember to keep
-it simple because you'll have to
-override these styles for the desktop
-view.
-*/
+	if you checked out the link above:
+	http://www.alistapart.com/articles/organizing-mobile/
+	you'll want to style the footer nav
+	a bit more in-depth. Remember to keep
+	it simple because you'll have to
+	override these styles for the desktop
+	view.
+	*/
 /* end .footer-links */
 /****
 VIDEOS
 ***/
-/* line 1061, ../scss/breakpoints/_base.scss */
+/* line 1064, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .video-container, .embed-youtube, .fb-video {
   position: relative;
   padding-bottom: 56.25%;
@@ -2355,7 +2399,7 @@ VIDEOS
   overflow: hidden;
 }
 
-/* line 1072, ../scss/breakpoints/_base.scss */
+/* line 1075, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_base.scss */
 .video-container iframe,
 .video-container object,
 .video-container embed,
@@ -2383,94 +2427,93 @@ tweeners.
 *********************/
 @media only screen and (min-width: 481px) {
   /******************************************************************
-  Site Name:
-  Author:
-  
-  Stylesheet: 481px and Up Stylesheet
-  
-  This stylesheet is loaded for larger devices. It's set to
-  481px because at 480px it would load on a landscaped iPhone.
-  This isn't ideal because then you would be loading all those
-  extra styles on that same mobile connection.
-  
-  A word of warning. This size COULD be a larger mobile device,
-  so you still want to keep it pretty light and simply expand
-  upon your base.scss styles.
-  
-  ******************************************************************/
+Site Name:
+Author:
+
+Stylesheet: 481px and Up Stylesheet
+
+This stylesheet is loaded for larger devices. It's set to
+481px because at 480px it would load on a landscaped iPhone.
+This isn't ideal because then you would be loading all those
+extra styles on that same mobile connection.
+
+A word of warning. This size COULD be a larger mobile device,
+so you still want to keep it pretty light and simply expand
+upon your base.scss styles.
+
+******************************************************************/
   /*
-  IMPORTANT NOTE ABOUT SASS 3.3 & UP
-  You can't use @extend within media queries
-  anymore, so just be aware that if you drop
-  them in here, they won't work.
-  */
+IMPORTANT NOTE ABOUT SASS 3.3 & UP
+You can't use @extend within media queries
+anymore, so just be aware that if you drop
+them in here, they won't work.
+*/
   /*********************
-  NAVIGATION STYLES
-  *********************/
+NAVIGATION STYLES
+*********************/
   /* .menu is clearfixed inside mixins.scss */
-  /* line 33, ../scss/breakpoints/_481up.scss */
+  /* line 33, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
   .menu {
     /* end .menu ul */
   }
-  /* line 34, ../scss/breakpoints/_481up.scss */
+  /* line 34, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
   .menu ul {
     /* end .menu ul li */
     /* highlight current page */
     /* end current highlighters */
   }
-  /* line 35, ../scss/breakpoints/_481up.scss */
+  /* line 35, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
   .menu ul li {
     /*
-    plan your menus and drop-downs wisely.
-    */
+				plan your menus and drop-downs wisely.
+				*/
   }
-  /* line 36, ../scss/breakpoints/_481up.scss */
+  /* line 36, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
   .menu ul li a {
     /*
-    you can use hover styles here even though this size
-    has the possibility of being a mobile device.
-    */
+					you can use hover styles here even though this size
+					has the possibility of being a mobile device.
+					*/
   }
-
   /* end .menu */
   /*********************
-  POSTS & CONTENT STYLES
-  *********************/
+POSTS & CONTENT STYLES
+*********************/
   /* entry content */
-  /* line 81, ../scss/breakpoints/_481up.scss */
+  /* line 81, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
   .entry-content {
     /* at this larger size, we can start to align images */
   }
-  /* line 85, ../scss/breakpoints/_481up.scss */
+  /* line 85, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
   .entry-content .alignleft, .entry-content img.alignleft {
     margin-right: 1.5em;
     display: inline;
     float: left;
   }
-  /* line 90, ../scss/breakpoints/_481up.scss */
+  /* line 90, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
   .entry-content .alignright, .entry-content img.alignright {
     margin-left: 1.5em;
     display: inline;
     float: right;
   }
-  /* line 95, ../scss/breakpoints/_481up.scss */
+  /* line 95, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
   .entry-content .aligncenter, .entry-content img.aligncenter {
     margin-right: auto;
     margin-left: auto;
     display: block;
     clear: both;
   }
-
   /* end .entry-content */
   /*********************
-  FOOTER STYLES
-  *********************/
+FOOTER STYLES
+*********************/
   /*
-  check your menus here. do they look good?
-  do they need tweaking?
-  */
+check your menus here. do they look good?
+do they need tweaking?
+*/
   /* end .footer-links */
 }
+
 /*********************
 TABLET & SMALLER LAPTOPS
 This is the average viewing window. So Desktops, Laptops, and
@@ -2479,66 +2522,65 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 768px) {
   /******************************************************************
-  Site Name:
-  Author:
-  
-  Stylesheet: Tablet & Small Desktop Stylesheet
-  
-  Here's where you can start getting into the good stuff.
-  This size will work on iPads, other tablets, and desktops.
-  So you can start working with more styles, background images,
-  and other resources. You'll also notice the grid starts to
-  come into play. Have fun!
-  
-  ******************************************************************/
+Site Name:
+Author:
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+Here's where you can start getting into the good stuff.
+This size will work on iPads, other tablets, and desktops.
+So you can start working with more styles, background images,
+and other resources. You'll also notice the grid starts to
+come into play. Have fun!
+
+******************************************************************/
   /*********************
-  GENERAL STYLES
-  *********************/
+GENERAL STYLES
+*********************/
   /*********************
-  LAYOUT & GRID STYLES
-  *********************/
-  /* line 26, ../scss/breakpoints/_768up.scss */
+LAYOUT & GRID STYLES
+*********************/
+  /* line 26, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .wrap {
     width: 760px;
   }
-
   /*********************
-  HEADER STYLES
-  *********************/
+HEADER STYLES
+*********************/
   /*********************
-  NAVIGATION STYLES
-  *********************/
-  /* line 42, ../scss/breakpoints/_768up.scss */
+NAVIGATION STYLES
+*********************/
+  /* line 42, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .nav {
     border: 0;
     /* end .menu ul li */
     /* highlight current page */
     /* end current highlighters */
   }
-  /* line 44, ../scss/breakpoints/_768up.scss */
+  /* line 44, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .nav ul {
     background: transparent;
     border: 0px solid rgba(240, 29, 79, 0.025);
     margin: 0;
   }
-  /* line 49, ../scss/breakpoints/_768up.scss */
+  /* line 49, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .nav li {
     float: left;
     position: relative;
     /*
-    plan your menus and drop-downs wisely.
-    */
+		plan your menus and drop-downs wisely.
+		*/
     /* showing sub-menus */
   }
-  /* line 53, ../scss/breakpoints/_768up.scss */
+  /* line 53, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .nav li a {
     border-bottom: 0;
     /*
-    you can use hover styles here even though this size
-    has the possibility of being a mobile device.
-    */
+			you can use hover styles here even though this size
+			has the possibility of being a mobile device.
+			*/
   }
-  /* line 70, ../scss/breakpoints/_768up.scss */
+  /* line 70, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu,
   .nav li ul.children {
     margin-top: 0;
@@ -2549,17 +2591,17 @@ you can add resource intensive styles.
     z-index: 8999;
     /* highlight sub-menu current page */
   }
-  /* line 79, ../scss/breakpoints/_768up.scss */
+  /* line 79, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li,
   .nav li ul.children li {
     float: none;
     /*
-    if you need to go deeper, go nuts
-    just remember deeper menus suck
-    for usability. k, bai.
-    */
+				if you need to go deeper, go nuts
+				just remember deeper menus suck
+				for usability. k, bai.
+				*/
   }
-  /* line 81, ../scss/breakpoints/_768up.scss */
+  /* line 81, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li a,
   .nav li ul.children li a {
     padding-left: 10px;
@@ -2568,54 +2610,50 @@ you can add resource intensive styles.
     width: 180px;
     border-bottom: 1px solid #ccc;
   }
-  /* line 98, ../scss/breakpoints/_768up.scss */
+  /* line 98, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li:last-child a,
   .nav li ul.children li:last-child a {
     border-bottom: 0;
   }
-  /* line 108, ../scss/breakpoints/_768up.scss */
+  /* line 108, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li ul,
   .nav li ul.children li ul {
     top: 0;
     left: 100%;
   }
-  /* line 123, ../scss/breakpoints/_768up.scss */
+  /* line 123, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .nav li:hover > ul {
     top: auto;
     visibility: visible;
   }
-
   /* end .nav */
   /*********************
-  SIDEBARS & ASIDES
-  *********************/
-  /* line 143, ../scss/breakpoints/_768up.scss */
+SIDEBARS & ASIDES
+*********************/
+  /* line 143, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .sidebar {
     margin-top: 2.2em;
   }
-
-  /* line 147, ../scss/breakpoints/_768up.scss */
+  /* line 147, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em;
   }
-
-  /* line 152, ../scss/breakpoints/_768up.scss */
+  /* line 152, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0;
   }
-  /* line 157, ../scss/breakpoints/_768up.scss */
+  /* line 157, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 165, ../scss/breakpoints/_768up.scss */
+  /* line 165, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
   }
-
   /* links widget */
   /* meta widget */
   /* pages widget */
@@ -2627,7 +2665,7 @@ you can add resource intensive styles.
   /* recent-comments widget */
   /* search widget */
   /* text widget */
-  /* line 260, ../scss/breakpoints/_768up.scss */
+  /* line 260, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   p .size-auto,
   p .size-full,
   p .size-large,
@@ -2636,26 +2674,25 @@ you can add resource intensive styles.
     max-width: 50% !important;
     height: auto;
   }
-
   /*********************
-  FOOTER STYLES
-  *********************/
+FOOTER STYLES
+*********************/
   /*
-  you'll probably need to do quite a bit
-  of overriding here if you styled them for
-  mobile. Make sure to double check these!
-  */
-  /* line 280, ../scss/breakpoints/_768up.scss */
+you'll probably need to do quite a bit
+of overriding here if you styled them for
+mobile. Make sure to double check these!
+*/
+  /* line 280, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
-    be careful with the depth of your menus.
-    it's very rare to have multi-depth menus in
-    the footer.
-    */
+			be careful with the depth of your menus.
+			it's very rare to have multi-depth menus in
+			the footer.
+			*/
   }
-
   /* end .footer-links */
 }
+
 /*********************
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and
@@ -2664,32 +2701,34 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 1030px) {
   /******************************************************************
-  Site Name:
-  Author:
-  
-  Stylesheet: Desktop Stylsheet
-  
-  This is the desktop size. It's larger than an iPad so it will only
-  be seen on the Desktop.
-  
-  ******************************************************************/
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
 }
+
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
 *********************/
 @media only screen and (min-width: 1240px) {
   /******************************************************************
-  Site Name: 
-  Author: 
-  
-  Stylesheet: Super Large Monitor Stylesheet
-  
-  You can add some advanced styles here if you like. This kicks in
-  on larger screens.
-  
-  ******************************************************************/
+Site Name: 
+Author: 
+
+Stylesheet: Super Large Monitor Stylesheet
+
+You can add some advanced styles here if you like. This kicks in
+on larger screens.
+
+******************************************************************/
 }
+
 /*********************
 RETINA (2x RESOLUTION DEVICES)
 This applies to the retina iPhone (4s) and iPad (2,3) along with
@@ -2698,46 +2737,47 @@ query for retina AND a certain size if you want. Go Nuts.
 *********************/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /******************************************************************
-  Site Name: 
-  Author: 
-  
-  Stylesheet: Retina Screens & Devices Stylesheet
-  
-  When handling retina screens you need to make adjustments, especially
-  if you're not using font icons. Here you can add them in one neat
-  place.
-  
-  ******************************************************************/
+Site Name: 
+Author: 
+
+Stylesheet: Retina Screens & Devices Stylesheet
+
+When handling retina screens you need to make adjustments, especially
+if you're not using font icons. Here you can add them in one neat
+place.
+
+******************************************************************/
   /* 
-  
-  EXAMPLE 
-  Let's say you have an image and you need to make sure it looks ok
-  on retina screens. Let's say we have an icon which dimension are
-  24px x 24px. In your regular stylesheets, it would look something
-  like this:
-  
-  .icon {
-  	width: 24px;
-  	height: 24px;
-  	background: url(img/test.png) no-repeat;
-  }
-  
-  For retina screens, we have to make some adjustments, so that image
-  doesn't look blurry. So, taking into account the image above and the
-  dimensions, this is what we would put in our retina stylesheet:
-  
-  .icon {
-  	background: url(img/test@2x.png) no-repeat;
-  	background-size: 24px 24px;
-  }
-  
-  So, you would create the same icon, but at double the resolution, meaning 
-  it would be 48px x 48px. You'd name it the same, but with a @2x at the end
-  (this is pretty standard practice). Set the background image so it matches
-  the original dimensions and you are good to go. 
-  
-  */
+
+EXAMPLE 
+Let's say you have an image and you need to make sure it looks ok
+on retina screens. Let's say we have an icon which dimension are
+24px x 24px. In your regular stylesheets, it would look something
+like this:
+
+.icon {
+	width: 24px;
+	height: 24px;
+	background: url(img/test.png) no-repeat;
 }
+
+For retina screens, we have to make some adjustments, so that image
+doesn't look blurry. So, taking into account the image above and the
+dimensions, this is what we would put in our retina stylesheet:
+
+.icon {
+	background: url(img/test@2x.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+So, you would create the same icon, but at double the resolution, meaning 
+it would be 48px x 48px. You'd name it the same, but with a @2x at the end
+(this is pretty standard practice). Set the background image so it matches
+the original dimensions and you are good to go. 
+
+*/
+}
+
 /*********************
 PRINT STYLESHEET
 Feel free to customize this. Remember to add things that won't make
@@ -2746,43 +2786,38 @@ be set to display none.
 *********************/
 @media print {
   /******************************************************************
-  Site Name:
-  Author:
-  
-  Stylesheet: Print Stylesheet
-  
-  This is the print stylesheet. There's probably not a lot
-  of reasons to edit this stylesheet. If you want to
-  though, go for it.
-  
-  ******************************************************************/
-  /* line 12, ../scss/partials/_print.scss */
+Site Name:
+Author:
+
+Stylesheet: Print Stylesheet
+
+This is the print stylesheet. There's probably not a lot
+of reasons to edit this stylesheet. If you want to
+though, go for it.
+
+******************************************************************/
+  /* line 12, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   body {
     font-size: 1.75em;
   }
-
-  /* line 15, ../scss/partials/_print.scss */
+  /* line 15, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   h3 {
     margin: 0em;
   }
-
-  /* line 18, ../scss/partials/_print.scss */
+  /* line 18, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   div#container {
     margin-top: 0em;
   }
-
-  /* line 21, ../scss/partials/_print.scss */
+  /* line 21, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   .entry-content td, .article-footer td {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-
-  /* line 26, ../scss/partials/_print.scss */
+  /* line 26, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   .entry-content, .article-footer {
     padding: 0em 1.5em .5em 0em;
   }
-
-  /* line 30, ../scss/partials/_print.scss */
+  /* line 30, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -2792,61 +2827,51 @@ be set to display none.
             filter: none !important;
     -ms-filter: none !important;
   }
-
-  /* line 43, ../scss/partials/_print.scss */
+  /* line 43, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
-
-  /* line 49, ../scss/partials/_print.scss */
+  /* line 49, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-
-  /* line 54, ../scss/partials/_print.scss */
+  /* line 54, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   thead {
     display: table-header-group;
   }
-
-  /* line 58, ../scss/partials/_print.scss */
+  /* line 58, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   tr, img {
     page-break-inside: avoid;
   }
-
-  /* line 62, ../scss/partials/_print.scss */
+  /* line 62, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   img {
     max-width: 100% !important;
   }
-
   @page {
     margin: 0.5cm;
   }
-  /* line 70, ../scss/partials/_print.scss */
+  /* line 70, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
-
-  /* line 75, ../scss/partials/_print.scss */
+  /* line 75, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   h2,
   h3 {
     page-break-after: avoid;
   }
-
-  /* line 79, ../scss/partials/_print.scss */
+  /* line 79, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   .noprint, header, footer {
     display: none;
   }
-
-  /* line 82, ../scss/partials/_print.scss */
+  /* line 82, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   .resume table {
     font-size: 50%;
   }
-
-  /* line 86, ../scss/partials/_print.scss */
+  /* line 86, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_print.scss */
   .sidebar,
   .page-navigation,
   .wp-prev-next,

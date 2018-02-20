@@ -90,7 +90,7 @@ I've edited it a bit, but it's a nice starting point.
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
-/* line 67, ../scss/partials/_typography.scss */
+/* line 67, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/partials/_typography.scss */
 p {
   -ms-word-wrap: break-word;
   word-break: break-word;
@@ -189,28 +189,31 @@ them in here, they won't work.
 NAVIGATION STYLES
 *********************/
 /* .menu is clearfixed inside mixins.scss */
-/* line 33, ../scss/breakpoints/_481up.scss */
+/* line 33, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
 .menu {
   /* end .menu ul */
 }
-/* line 34, ../scss/breakpoints/_481up.scss */
+
+/* line 34, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
 .menu ul {
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 35, ../scss/breakpoints/_481up.scss */
+
+/* line 35, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
 .menu ul li {
   /*
-  plan your menus and drop-downs wisely.
-  */
+				plan your menus and drop-downs wisely.
+				*/
 }
-/* line 36, ../scss/breakpoints/_481up.scss */
+
+/* line 36, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
 .menu ul li a {
   /*
-  you can use hover styles here even though this size
-  has the possibility of being a mobile device.
-  */
+					you can use hover styles here even though this size
+					has the possibility of being a mobile device.
+					*/
 }
 
 /* end .menu */
@@ -218,23 +221,26 @@ NAVIGATION STYLES
 POSTS & CONTENT STYLES
 *********************/
 /* entry content */
-/* line 81, ../scss/breakpoints/_481up.scss */
+/* line 81, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-/* line 85, ../scss/breakpoints/_481up.scss */
+
+/* line 85, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
 }
-/* line 90, ../scss/breakpoints/_481up.scss */
+
+/* line 90, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 95, ../scss/breakpoints/_481up.scss */
+
+/* line 95, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -270,7 +276,7 @@ GENERAL STYLES
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-/* line 26, ../scss/breakpoints/_768up.scss */
+/* line 26, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .wrap {
   width: 760px;
 }
@@ -281,37 +287,41 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 42, ../scss/breakpoints/_768up.scss */
+/* line 42, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .nav {
   border: 0;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 44, ../scss/breakpoints/_768up.scss */
+
+/* line 44, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .nav ul {
   background: transparent;
   border: 0px solid rgba(240, 29, 79, 0.025);
   margin: 0;
 }
-/* line 49, ../scss/breakpoints/_768up.scss */
+
+/* line 49, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .nav li {
   float: left;
   position: relative;
   /*
-  plan your menus and drop-downs wisely.
-  */
+		plan your menus and drop-downs wisely.
+		*/
   /* showing sub-menus */
 }
-/* line 53, ../scss/breakpoints/_768up.scss */
+
+/* line 53, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .nav li a {
   border-bottom: 0;
   /*
-  you can use hover styles here even though this size
-  has the possibility of being a mobile device.
-  */
+			you can use hover styles here even though this size
+			has the possibility of being a mobile device.
+			*/
 }
-/* line 70, ../scss/breakpoints/_768up.scss */
+
+/* line 70, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -322,17 +332,19 @@ NAVIGATION STYLES
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 79, ../scss/breakpoints/_768up.scss */
+
+/* line 79, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   float: none;
   /*
-  if you need to go deeper, go nuts
-  just remember deeper menus suck
-  for usability. k, bai.
-  */
+				if you need to go deeper, go nuts
+				just remember deeper menus suck
+				for usability. k, bai.
+				*/
 }
-/* line 81, ../scss/breakpoints/_768up.scss */
+
+/* line 81, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -341,18 +353,21 @@ NAVIGATION STYLES
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-/* line 98, ../scss/breakpoints/_768up.scss */
+
+/* line 98, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 108, ../scss/breakpoints/_768up.scss */
+
+/* line 108, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   top: 0;
   left: 100%;
 }
-/* line 123, ../scss/breakpoints/_768up.scss */
+
+/* line 123, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .nav li:hover > ul {
   top: auto;
   visibility: visible;
@@ -362,28 +377,30 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 143, ../scss/breakpoints/_768up.scss */
+/* line 143, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 147, ../scss/breakpoints/_768up.scss */
+/* line 147, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 152, ../scss/breakpoints/_768up.scss */
+/* line 152, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 157, ../scss/breakpoints/_768up.scss */
+
+/* line 157, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 165, ../scss/breakpoints/_768up.scss */
+
+/* line 165, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -400,7 +417,7 @@ SIDEBARS & ASIDES
 /* recent-comments widget */
 /* search widget */
 /* text widget */
-/* line 260, ../scss/breakpoints/_768up.scss */
+/* line 260, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 p .size-auto,
 p .size-full,
 p .size-large,
@@ -418,13 +435,13 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 280, ../scss/breakpoints/_768up.scss */
+/* line 280, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
-  be careful with the depth of your menus.
-  it's very rare to have multi-depth menus in
-  the footer.
-  */
+			be careful with the depth of your menus.
+			it's very rare to have multi-depth menus in
+			the footer.
+			*/
 }
 
 /* end .footer-links */
@@ -461,5 +478,4 @@ header.php file to see what they are:
 .lt-ie8 .class { ... }
 
 */
-
 /*# sourceMappingURL=ie.css.map */
