@@ -41,7 +41,16 @@
 
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
+<?php if( get_field('image') ): ?>
+<style>
+body{background-image: url("<?php the_field('image'); ?>");}
+</style>
 
+<?php else : ?>
+<style>
+body{background-image: url("<?php the_post_thumbnail_url(); ?>");}
+</style>
+<?php endif; ?>
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
