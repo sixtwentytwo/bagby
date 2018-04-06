@@ -18,6 +18,8 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+<?php edit_post_link( __( 'Edit this section', 'textdomain' ), '<p>', '</p>', null, 'edit-post-link' ); ?>
+
 <!--
 <header class="article-header">
 

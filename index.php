@@ -20,6 +20,7 @@
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
 								<header class="article-header">
+<?php edit_post_link( __( 'Edit this section', 'textdomain' ), '<p>', '</p>', null, 'edit-post-link' ); ?>
 
 									<h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 									<!-- <p class="byline entry-meta vcard">

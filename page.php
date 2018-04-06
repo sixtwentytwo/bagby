@@ -20,6 +20,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
 <header class="article-header">
+<?php edit_post_link( __( 'Edit this section', 'textdomain' ), '<p>', '</p>', null, 'edit-post-link' ); ?>
 
 <h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
 
