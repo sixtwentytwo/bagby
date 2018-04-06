@@ -18,7 +18,7 @@ This is the Wordpress logo in the admin area.
 You'll have to load your own images and mess
 with the width and height.
 */
-/* line 27, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/login.scss */
+/* line 27, Users/aaron/Desktop/WEBSITES/622tularosa.com/sixtwentytwo/library/scss/login.scss */
 .login h1 a {
   background: url(../images/login-logo.png) no-repeat top center;
   /* make sure to replace this! */
@@ -30,7 +30,7 @@ with the width and height.
   display: block;
 }
 
-/* line 37, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/login.scss */
+/* line 37, Users/aaron/Desktop/WEBSITES/622tularosa.com/sixtwentytwo/library/scss/login.scss */
 form {
   margin-left: 8px;
   padding: 26px 24px 46px;
@@ -42,7 +42,7 @@ form {
           box-shadow: none;
 }
 
-/* line 47, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/login.scss */
+/* line 47, Users/aaron/Desktop/WEBSITES/622tularosa.com/sixtwentytwo/library/scss/login.scss */
 body form .input {
   font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
   font-weight: 200;
@@ -68,7 +68,7 @@ but since we're referencing the id, it should be easy.
 retina login logo
 */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 77, Users/aaron/Desktop/work desktop/622tularosa.com/sixtwentytwo/library/scss/login.scss */
+  /* line 77, Users/aaron/Desktop/WEBSITES/622tularosa.com/sixtwentytwo/library/scss/login.scss */
   .login h1 a {
     background: url(../images/login-logo@2x.png) no-repeat top center;
     /* make sure to replace this! */
