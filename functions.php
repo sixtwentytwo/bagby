@@ -577,6 +577,18 @@ return $init_array;
 // Attach callback to 'tiny_mce_before_init'
 add_filter( 'tiny_mce_before_init', 'my_mce_before_init_insert_formats' );
 
+function add_the_table_button( $buttons ) {
+   array_push( $buttons, 'separator', 'table' );
+   return $buttons;
+}
+add_filter( 'mce_buttons', 'add_the_table_button' );
+
+function add_the_table_plugin( $plugins ) {
+    $plugins['table'] = content_url() . '/themes/'.get_template().'/library/tinymceplugins/table/plugin.min.js';
+    return $plugins;
+}
+add_filter( 'mce_external_plugins', 'add_the_table_plugin' );
+
 add_filter( 'auto_update_core', '__return_true' );
 
 add_filter( 'auto_update_plugin', '__return_true' );
