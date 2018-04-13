@@ -20,14 +20,12 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 <?php edit_post_link( __( 'Edit this section', 'textdomain' ), '<p>', '</p>', null, 'edit-post-link' ); ?>
 
-<!--
 <header class="article-header">
 
 <h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
 
-
 </header> <?php // end article header ?>
- -->
+
 <section class="entry-content cf" itemprop="articleBody">
 <?php
 // the content (pretty self explanatory huh)
